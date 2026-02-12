@@ -1,0 +1,25 @@
+﻿FROM nginx:1.25-alpine AS base
+LABEL maintainer="Milos Vasiljevic"
+LABEL description="Dockerfile za serviranje statičkog frontenda FMIR kviza"
+
+# Postavi radni direktorijum
+WORKDIR /usr/share/nginx/html
+
+# Obriši default Nginx statiku
+RUN rm -rf ./*
+
+# Dodaj environment promenljivu (možeš koristiti za Nginx config ako želiš)
+ENV NGINX_PORT=80
+
+# Kopiraj tvoje web fajlove
+COPY web/ .
+
+# Expose porta
+EXPOSE ${NGINX_PORT}
+
+# Healthcheck unutar Dockerfile-a (može biti i u compose.yml)
+HEALTHCHECK --interval=30s --timeout=5s --start-period=5s --retries=3 \
+  CMD wget -qO- http://localhost:${NGINX_PORT} || exit 1
+
+# Startuj Nginx
+CMD ["nginx", "-g", "daemon off;"]

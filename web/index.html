@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FMIR Kviz - Upravljanje pitanjima</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1><i class="fas fa-graduation-cap"></i> FMIR Kviz - Upravljanje pitanjima</h1>
+            <p>Izaberite set pitanja ili dodajte novi</p>
+        </div>
+
+        <!-- File Manager Sekcija -->
+        <div class="file-manager">
+            <div class="file-list-container">
+                <h2><i class="fas fa-folder-open"></i> Dostupni setovi pitanja</h2>
+                <div id="file-list" class="file-list">
+                    <div class="file-item loading">
+                        <i class="fas fa-spinner fa-spin"></i> Učitavanje setova pitanja...
+                    </div>
+                </div>
+            </div>
+
+            <div class="upload-section">
+                <h2><i class="fas fa-cloud-upload-alt"></i> Dodaj novi set pitanja</h2>
+                <div class="upload-box">
+                    <div class="upload-icon">
+                        <i class="fas fa-file-import"></i>
+                    </div>
+                    <div class="file-input-wrapper">
+                        <button class="file-input-btn">
+                            <i class="fas fa-folder-open"></i> Odaberite JSON fajl
+                        </button>
+                        <input type="file" id="new-json-file" accept=".json">
+                    </div>
+                    <div id="file-name" class="file-name">Nijedan fajl nije odabran</div>
+                    <button id="upload-btn" class="btn upload-btn">
+                        <i class="fas fa-upload"></i> Pošalji na server
+                    </button>
+                    <div id="upload-status" class="upload-status"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Kviz Sekcija (sakrivena inicijalno) -->
+        <div id="quiz-section" class="quiz-section" style="display:none">
+            <div class="progress-container" id="progress-container">
+                <div class="progress-bar" id="progress-bar"></div>
+                <div class="progress-text" id="progress-text">0%</div>
+            </div>
+            
+            <div class="stats" id="stats">
+                <div class="stat-item">
+                    <div>Pitanje</div>
+                    <div class="stat-value" id="question-count">0/0</div>
+                </div>
+                <div class="stat-item">
+                    <div>Tačno</div>
+                    <div class="stat-value" id="correct-count">0</div>
+                </div>
+                <div class="stat-item">
+                    <div>Netačno</div>
+                    <div class="stat-value" id="incorrect-count">0</div>
+                </div>
+                <div class="stat-item">
+                    <div>Procenat</div>
+                    <div class="stat-value" id="accuracy">0%</div>
+                </div>
+            </div>
+            
+            <div id="navigation-grid" class="navigation-grid"></div>
+            
+            <div class="question-container" id="question-container">
+                <div class="question-count" id="question-counter">Pitanje 1/10</div>
+                <div class="question-text" id="question-text"></div>
+                <div class="options-container-question" id="options-container"></div>
+            </div>
+            
+            <div id="feedback" class="feedback"></div>
+            
+            <div class="buttons-container" id="buttons-container">
+                <button id="prev-btn" class="btn"><i class="fas fa-arrow-left"></i> Prethodno</button>
+                <button id="submit-btn" class="btn">Potvrdi odgovor</button>
+                <button id="random-mode-btn" class="btn random-mode-btn">
+                    <i class="fas fa-random"></i> Nasumična pitanja: Isključeno
+                </button>
+                <button id="next-btn" class="btn">Sledeće <i class="fas fa-arrow-right"></i></button>
+            </div>
+            
+            <div id="results" class="results">
+                <h2>Rezultati kviza</h2>
+                <div class="score" id="final-score">0/0</div>
+                <p id="result-message"></p>
+                <button class="restart-btn" id="restart-btn"><i class="fas fa-redo"></i> Pokreni ponovo</button>
+                <button class="back-to-files-btn" id="back-to-files-btn">
+                    <i class="fas fa-folder-open"></i> Nazad na setove pitanja
+                </button>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>FMIR Kviz aplikacija &AllRightsServed; 2025 Studenti FON-a | Web plikacija učenje finansijskog menadžmenta</p>
+        </div>
+    </div>
+    <script src="javascript.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,69 @@
+﻿name: fmir-kviz
+
+services:
+  api:
+    build:
+      context: ./api
+      dockerfile: Dockerfile
+      args:
+        NODE_ENV: production
+    image: docker-api:latest
+    container_name: fmir-api
+    env_file:
+      - .env
+    ports:
+      - "${API_PORT:-3000}:3000"
+    volumes:
+      - ./questions:/app/data
+    restart: unless-stopped
+    networks:
+      - fmir-net
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "http://localhost:3000/files"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+    labels:
+      - "com.fmir.role=api"
+
+  web:
+    image: nginx:1.25-alpine
+    container_name: fmir-web
+    env_file:
+      - .env
+    ports:
+      - "${APP_PORT:-8080}:80"
+    volumes:
+      - ./web:/usr/share/nginx/html:ro
+      - nginx-cache:/var/cache/nginx
+    depends_on:
+      api:
+        condition: service_healthy
+    networks:
+      - fmir-net
+    healthcheck:
+      # BusyBox wget u alpine imagu je dostupan
+      test: ["CMD", "wget", "-qO", "-", "http://localhost"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options:
+        max-size: "5m"
+        max-file: "2"
+    labels:
+      - "com.fmir.role=web"
+
+networks:
+  fmir-net:
+    driver: bridge
+
+volumes:
+  nginx-cache:
