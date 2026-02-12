@@ -4470,144 +4470,69 @@
     "explanation": ""
   },
   {
+    "question": "Ping(echo) komanda koristi protokol?",
+    "options": [
+      { "text": "MAC", "correct": false },
+      { "text": "IMAP", "correct": false },
+      { "text": "ARP", "correct": false },
+      { "text": "ICMP", "correct": true }
+    ],
+    "explanation": ""
+  },
+  {
     "question": "Broj raspolozivih adresa u mrezi kojoj pripada IP adresa 192.168.35.69/27 je",
     "options": [
-      {
-        "text": "16",
-        "correct": false
-      },
-      {
-        "text": "31",
-        "correct": false
-      },
-      {
-        "text": "32",
-        "correct": false
-      },
-      {
-        "text": "70",
-        "correct": false
-      },
-      {
-        "text": "254",
-        "correct": false
-      },
-      {
-        "text": "256",
-        "correct": false
-      },
-      {
-        "text": "30",
-        "correct": true
-      },
+      { "text": "16", "correct": false },
+      { "text": "31", "correct": false },
+      { "text": "32", "correct": false },
+      { "text": "70", "correct": false },
+      { "text": "254", "correct": false },
+      { "text": "256", "correct": false },
+      { "text": "30", "correct": true }
     ],
     "explanation": ""
   },
   {
     "question": "Kod Cisco rutera sa IOS-om, za omogucavanje pristupa privilegovanom modu koriscenjem obicne sifre koristi se:",
     "options": [
-      {
-        "text": "Ruter# password lozinka",
-        "correct": false
-      },
-      {
-        "text": "Ruter(config-line)# enable password lozinka",
-        "correct": false
-      },
-      {
-        "text": "Ruter(config)# enable secret lozinka",
-        "correct": false
-      },
-      {
-        "text": "Ruter(config)# enable password lozinka",
-        "correct": true
-      },
-      {
-        "text": "Ruter(config)# enable secret lozinka",
-        "correct": false
-      },
-      {
-        "text": "Ruter# enable password lozinka",
-        "correct": false
-      }
-  }
+      { "text": "Ruter# password lozinka", "correct": false },
+      { "text": "Ruter(config-line)# enable password lozinka", "correct": false },
+      { "text": "Ruter(config)# enable secret lozinka", "correct": false },
+      { "text": "Ruter(config)# enable password lozinka", "correct": true },
+      { "text": "Ruter(config)# enable secret lozinka", "correct": false },
+      { "text": "Ruter# enable password lozinka", "correct": false }
     ],
     "explanation": ""
   },
   {
     "question": "Kod Cisco rutera sa IOS-om, za prelazak u privilegovani mod iz korisnickog moda koristi se:",
     "options": [
-      {
-        "text": "mode privileged",
-        "correct": false
-      },
-      {
-        "text": "privilege",
-        "correct": false
-      },
-      {
-        "text": "privileged",
-        "correct": false
-      },
-      {
-        "text": "enable",
-        "correct": true
-      },
-      {
-        "text": "mode privilege",
-        "correct": false
-      },
-      {
-        "text": "configuration terminal",
-        "correct": false
-      },
-      {
-        "text": "mode enable",
-        "correct": false
-      }
-  }
+      { "text": "mode privileged", "correct": false },
+      { "text": "privilege", "correct": false },
+      { "text": "privileged", "correct": false },
+      { "text": "enable", "correct": true },
+      { "text": "mode privilege", "correct": false },
+      { "text": "configuration terminal", "correct": false },
+      { "text": "mode enable", "correct": false }
     ],
     "explanation": ""
   },
   {
     "question": "U Java programskom jeziku, kod TCP komunikacije, koriscenjemm DataOutputStream klase, podaci se salju na tok metodom:",
     "options": [
-      {
-        "text": "WriteData()",
-        "correct": false
-      },
-      {
-        "text": "WriteBytes()",
-        "correct": true
-      },
-      {
-        "text": "SendBytes()",
-        "correct": false
-      },
-      {
-        "text": "SendData()",
-        "correct": false
-      }
-  }
+      { "text": "WriteData()", "correct": false },
+      { "text": "WriteBytes()", "correct": true },
+      { "text": "SendBytes()", "correct": false },
+      { "text": "SendData()", "correct": false }
     ],
     "explanation": ""
   },
   {
     "question": "Kankan za distribuciju video sadrzaja koristi:",
     "options": [
-      {
-        "text": "Iskljucivo protokok video zapisa izmedju ravno...",
-        "correct": false
-      },
-      {
-        "text": "Iskljucivo namenske CDN servere...",
-        "correct": false
-      },
-      {
-        "text": "Kombinaciju namenskih CDN servera i protokola...",
-        "correct": true
-      }
-  }
+      { "text": "Iskljucivo protokok video zapisa izmedju ravno...", "correct": false },
+      { "text": "Iskljucivo namenske CDN servere...", "correct": false },
+      { "text": "Kombinaciju namenskih CDN servera i protokola...", "correct": true }
     ],
     "explanation": ""
   }
