@@ -128,24 +128,6 @@
     "explanation": ""
   },
   {
-    "question": "Da li je u GBN protokolu moguće da pošiljilac primi ACK za paket van njegovog trenutnog",
-    "options": [
-      {
-        "text": "rozora?",
-        "correct": false
-      },
-      {
-        "text": "Tačno",
-        "correct": true
-      },
-      {
-        "text": "Netačno",
-        "correct": false
-      }
-    ],
-    "explanation": ""
-  },
-  {
     "question": "Da li je u protokolu za selektivno ponavljanje moguće da pošiljilac primi ACK za paket van njegovog trenutnog prozora?",
     "options": [
       {
@@ -246,12 +228,8 @@
     "explanation": ""
   },
   {
-    "question": "Kada TCP segment stigne na host, socket na koji će segment biti poslat zavisi od",
+    "question": "Kada TCP segment stigne na host, socket na koji će segment biti poslat zavisi od polazne IP adrese datagrama u kome je enkapsuliran segment:",
     "options": [
-      {
-        "text": "polazne IP adrese datagrama u kome je enkapsuliran segment",
-        "correct": false
-      },
       {
         "text": "broja polaznog porta",
         "correct": false
