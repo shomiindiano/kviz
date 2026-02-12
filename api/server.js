@@ -5,6 +5,11 @@ const multer = require("multer");
 const cors = require("cors");
 
 const app = express();
+
+app.get("/", (req, res) => {
+  res.json({ status: "API is running" });
+});
+
 app.use(cors());
 app.use(express.json());
 
