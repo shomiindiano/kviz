@@ -35,3 +35,11 @@ if (fs.existsSync(QUESTIONS_DIR)) {
     }
   });
 }
+
+console.log("QUESTIONS DIR:", QUESTIONS_DIR);
+console.log("DATA DIR:", DATA_DIR);
+console.log("Questions postoji:", fs.existsSync(QUESTIONS_DIR));
+
+if (fs.existsSync(QUESTIONS_DIR)) {
+  console.log("Files in questions:", fs.readdirSync(QUESTIONS_DIR));
+}
