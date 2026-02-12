@@ -27,6 +27,8 @@ if (fs.existsSync(QUESTIONS_DIR)) {
       console.log(`Učitano iz questions: ${file}`);
     }
   });
+} else {
+  console.log("QUESTIONS DIR ne postoji! Dodaj folder questions sa .json fajlovima na Git.");
 }
 
 app.use(cors());
@@ -34,22 +36,14 @@ app.use(express.json());
 
 // Konfiguracija za upload fajlova
 const storage = multer.diskStorage({
-  destination: (req, file, cb) => {
-    cb(null, DATA_DIR);
-  },
-  filename: (req, file, cb) => {
-    cb(null, file.originalname);
-  }
+  destination: (req, file, cb) => cb(null, DATA_DIR),
+  filename: (req, file, cb) => cb(null, file.originalname)
 });
 const upload = multer({ storage });
 
 // --- Rute ---
-// Status API
-app.get("/", (req, res) => {
-  res.json({ status: "API is running" });
-});
+app.get("/", (req, res) => res.json({ status: "API is running" }));
 
-// Lista svih fajlova u data
 app.get("/files", (req, res) => {
   fs.readdir(DATA_DIR, (err, files) => {
     if (err) return res.status(500).json({ error: "Greška pri čitanju fajlova." });
@@ -57,7 +51,6 @@ app.get("/files", (req, res) => {
   });
 });
 
-// Dohvati sadržaj fajla (kviz pitanja)
 app.get("/questions/:name", (req, res) => {
   const filePath = path.join(DATA_DIR, req.params.name);
   if (!fs.existsSync(filePath)) return res.status(404).json({ error: "Fajl ne postoji." });
@@ -70,19 +63,16 @@ app.get("/questions/:name", (req, res) => {
   }
 });
 
-// Preuzimanje fajla direktno
 app.get("/files/:name", (req, res) => {
   const filePath = path.join(DATA_DIR, req.params.name);
   if (!fs.existsSync(filePath)) return res.status(404).json({ error: "Fajl ne postoji." });
   res.sendFile(filePath);
 });
 
-// Upload fajla
 app.post("/upload", upload.single("file"), (req, res) => {
   res.json({ message: "Fajl uspešno otpremljen." });
 });
 
-// Brisanje fajla
 app.delete("/files/:name", (req, res) => {
   const filePath = path.join(DATA_DIR, req.params.name);
   if (!fs.existsSync(filePath)) return res.status(404).json({ error: "Fajl ne postoji." });
@@ -93,7 +83,4 @@ app.delete("/files/:name", (req, res) => {
   });
 });
 
-// Start servera
-app.listen(PORT, () => {
-  console.log(`Server radi na portu ${PORT}`);
-});
+app.listen(PORT, () => console.log(`Server radi na portu ${PORT}`));
