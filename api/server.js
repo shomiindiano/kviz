@@ -3,6 +3,7 @@ const fs = require("fs");
 const path = require("path");
 const multer = require("multer");
 const cors = require("cors");
+const QUESTIONS_DIR = path.join(__dirname, "questions");
 
 const app = express();
 
@@ -19,6 +20,22 @@ const DATA_DIR = path.join(__dirname, "data");
 if (!fs.existsSync(DATA_DIR)) {
   fs.mkdirSync(DATA_DIR, { recursive: true });
 }
+
+// Kopiraj default pitanja iz questions u data (ako ne postoje)
+if (fs.existsSync(QUESTIONS_DIR)) {
+  const files = fs.readdirSync(QUESTIONS_DIR);
+
+  files.forEach(file => {
+    const src = path.join(QUESTIONS_DIR, file);
+    const dest = path.join(DATA_DIR, file);
+
+    if (!fs.existsSync(dest)) {
+      fs.copyFileSync(src, dest);
+      console.log("Učitano iz questions:", file);
+    }
+  });
+}
+
 
 // upload konfiguracija
 const storage = multer.diskStorage({
