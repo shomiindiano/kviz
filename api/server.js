@@ -9,6 +9,34 @@ const QUESTIONS_DIR = path.join(__dirname, "questions");
 
 const app = express();
 
+const fs = require("fs");
+const path = require("path");
+
+const DATA_DIR = path.join(__dirname, "data");
+const QUESTIONS_DIR = path.join(__dirname, "questions");
+
+// kreiraj data folder ako ne postoji
+if (!fs.existsSync(DATA_DIR)) {
+  fs.mkdirSync(DATA_DIR, { recursive: true });
+  console.log("Kreiran folder data/");
+}
+
+// kopiraj pitanja iz questions u data, ali samo ako ih tamo nema
+if (fs.existsSync(QUESTIONS_DIR)) {
+  const files = fs.readdirSync(QUESTIONS_DIR);
+
+  files.forEach(file => {
+    const src = path.join(QUESTIONS_DIR, file);
+    const dest = path.join(DATA_DIR, file);
+
+    if (!fs.existsSync(dest)) {
+      fs.copyFileSync(src, dest);
+      console.log(`Učitano iz questions: ${file}`);
+    }
+  });
+}
+
+
 app.use(cors());
 app.use(express.json());
 
