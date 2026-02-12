@@ -24,9 +24,6 @@ COPY . .
 # Izlažemo port (dokumentacija)
 EXPOSE 3000
 
-# Healthcheck proverava da li API radi
-HEALTHCHECK CMD curl --fail http://localhost:3000/files || exit 1
-
 # Pokrećemo server
 CMD ["node", "server.js"]
 
