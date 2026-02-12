@@ -19,7 +19,7 @@ function rstripSlash(s) {
 }
 function resolveApiBase() {
   // Privremeno – da isključimo sve nedoumice oko domena/porta
-  return "http://localhost:3000";
+  return "https://kviz-01nj.onrender.com";
 }
 var API_BASE = resolveApiBase();
 
@@ -594,3 +594,4 @@ if (backToFilesBtn) backToFilesBtn.onclick = function(){
 
 /* ---------- Init ---------- */
 document.addEventListener("DOMContentLoaded", function(){ loadFileList(); });
+
