@@ -3,7 +3,7 @@ const fs = require("fs");
 const path = require("path");
 const multer = require("multer");
 const cors = require("cors");
-
+const PORT = process.env.PORT || 3000;
 const DATA_DIR = path.join(__dirname, "data");
 const QUESTIONS_DIR = path.join(__dirname, "questions");
 
@@ -11,6 +11,11 @@ const app = express();
 
 app.use(cors());
 app.use(express.json());
+
+
+app.listen(PORT, () => {
+  console.log(`Server radi na portu ${PORT}`);
+});
 
 app.get("/", (req, res) => {
   res.json({ status: "API is running" });
