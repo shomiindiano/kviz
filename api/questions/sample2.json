@@ -1,0 +1,2464 @@
+[
+  {
+    "question": "Menične radnje nisu:",
+    "options": [
+      {
+        "text": "akceptiranje",
+        "correct": false
+      },
+      {
+        "text": "certifikacija",
+        "correct": true
+      },
+      {
+        "text": "opoziv",
+        "correct": true
+      },
+      {
+        "text": "amortizacija",
+        "correct": false
+      },
+      {
+        "text": "jemstvo (avaliranje)",
+        "correct": false
+      }
+    ],
+    "explanation": "Tačni odgovori su: certifikacija, opoziv."
+  },
+  {
+    "question": "Koji od finansijskih izveštaja nisu ključni:",
+    "options": [
+      {
+        "text": "glavna knjiga",
+        "correct": true
+      },
+      {
+        "text": "bilans uspeha",
+        "correct": false
+      },
+      {
+        "text": "dnevnik",
+        "correct": true
+      },
+      {
+        "text": "izveštaj o novčanim tokovima",
+        "correct": false
+      },
+      {
+        "text": "izveštaj o prometu sredstava",
+        "correct": true
+      }
+    ],
+    "explanation": "Tačni odgovori su: glavna knjiga, dnevnik, izveštaj o prometu sredstava."
+  },
+  {
+    "question": "U bilansu uspeha se mogu naci:",
+    "options": [
+      {
+        "text": "NV prodate robe",
+        "correct": true
+      },
+      {
+        "text": "Menicna potrazivanja //sredstva, bilans stanja",
+        "correct": false
+      },
+      {
+        "text": "Pozitivne kursne razlike",
+        "correct": true
+      },
+      {
+        "text": "Dugorocna finansijska ulaganja",
+        "correct": false
+      },
+      {
+        "text": "Prihodi od aktivacije sopstvenih ucinaka",
+        "correct": true
+      }
+    ],
+    "explanation": "Tačni odgovori su: NV prodate robe, Pozitivne kursne razlike, Prihodi od aktivacije sopstvenih ucinaka."
+  },
+  {
+    "question": "Rast amortizacije kao finansijskog troška će usloviti porast:",
+    "options": [
+      {
+        "text": "KOZ",
+        "correct": false
+      },
+      {
+        "text": "racija pokrića kamata",
+        "correct": false
+      },
+      {
+        "text": "BRL",
+        "correct": false
+      },
+      {
+        "text": "FPL",
+        "correct": true
+      },
+      {
+        "text": "NOS",
+        "correct": false
+      }
+    ],
+    "explanation": "Tačan odgovor je: FPL."
+  },
+  {
+    "question": "Koja se kamatna stopa najcesce koristi kod revolving kredita?",
+    "options": [
+      {
+        "text": "Fiksna",
+        "correct": true
+      }
+    ],
+    "explanation": "Tačan odgovor je: Fiksna."
+  },
+  {
+    "question": "U 5K kreditnoj analizi, kapital označava:",
+    "options": [
+      {
+        "text": "Dovoljnost novčanih tokova",
+        "correct": true
+      },
+      {
+        "text": "Dovoljnost obrtnih sredstava",
+        "correct": false
+      },
+      {
+        "text": "Dovoljnost ostvarenih Prihoda",
+        "correct": false
+      },
+      {
+        "text": "Dovoljnost sopstvenog kapitala",
+        "correct": false
+      },
+      {
+        "text": "Dovoljnost osnovnih sredstava",
+        "correct": false
+      }
+    ],
+    "explanation": "Tačan odgovor je: Dovoljnost novčanih tokova."
+  },
+  {
+    "question": "Metoda kojom se sadašnja vrednost budućih priliva izjednačava sa kapitalnim izdatkom:",
+    "options": [
+      {
+        "text": "indeks profitabilnosti",
+        "correct": false
+      },
+      {
+        "text": "neto sadašnja vrednost",
+        "correct": false
+      },
+      {
+        "text": "trošak kapitala",
+        "correct": false
+      },
+      {
+        "text": "interna stopa prinosa",
+        "correct": true
+      },
+      {
+        "text": "period povraćaja",
+        "correct": false
+      }
+    ],
+    "explanation": "Tačan odgovor je: interna stopa prinosa."
+  },
+  {
+    "question": "Vertikalna pravila finansiranja:",
+    "options": [
+      {
+        "text": "pravilo za odnos osnovnog kapitala i rezervi",
+        "correct": true
+      },
+      {
+        "text": "pravilo za odnos dugoročnog prema kratkoročnom kapitalu",
+        "correct": true
+      },
+      {
+        "text": "pravilo za odnos sopstvenog i tuđeg kapitala",
+        "correct": true
+      },
+      {
+        "text": "zlatno bilansno pravilo",
+        "correct": false
+      },
+      {
+        "text": "zlatno bankarsko pravilo",
+        "correct": false
+      }
+    ],
+    "explanation": "Tačni odgovori su: pravilo za odnos osnovnog kapitala i rezervi, pravilo za odnos dugoročnog prema kratkoročnom kapitalu, pravilo za odnos sopstvenog i tuđeg kapitala."
+  },
+  {
+    "question": "Lice koje izdaje nalog da se iz njegovog pokrića po čeku isplati neko drugo lice na koje je ček trasiran, naziva se:",
+    "options": [
+      {
+        "text": "Trasant - daje nalog ja",
+        "correct": true
+      },
+      {
+        "text": "Trasat –ima obavezu da isplati banka",
+        "correct": false
+      },
+      {
+        "text": "Indosant  – prenosilac prava ili stari vlasnik",
+        "correct": false
+      },
+      {
+        "text": "Indosatar - primalac prava ili novi vlasnik",
+        "correct": false
+      },
+      {
+        "text": "Remitent // lice kome se ili po cijoj naredbi mora u roku platiti menicna obaveza infosoft",
+        "correct": false
+      }
+    ],
+    "explanation": "Tačan odgovor je: Trasant - daje nalog ja."
+  },
+  {
+    "question": "Lice koje daje nalog da se u njegovo ime izvrsi isplata po menici:",
+    "options": [
+      {
+        "text": "Trasat – lice oznaceno kao duznik po menici",
+        "correct": false
+      },
+      {
+        "text": "remitent – lice kome se ili po cijoj naredbi mora u roku platiti men obaveza",
+        "correct": false
+      },
+      {
+        "text": "Akceptant-onaj ko daje potvrdu da ce menica biti isplacena",
+        "correct": false
+      },
+      {
+        "text": "Trasant – lice koje je izdalo menicu",
+        "correct": true
+      },
+      {
+        "text": "Indosant-onaj ko prenosi menicu na drugoga",
+        "correct": false
+      }
+    ],
+    "explanation": "Tačan odgovor je: Trasant – lice koje je izdalo menicu."
+  },
+  {
+    "question": "Proces kojim se sagledava buduće stanje bez postavljanja ciljeva i inteziteta željenih radnji je:",
+    "options": [
+      {
+        "text": "budžetiranje",
+        "correct": false
+      },
+      {
+        "text": "strategijsko planiranje",
+        "correct": false
+      },
+      {
+        "text": "finansijsko predviđanje",
+        "correct": true
+      },
+      {
+        "text": "finansijsko izveštavanje",
+        "correct": false
+      },
+      {
+        "text": "finansijsko planiranje",
+        "correct": false
+      }
+    ],
+    "explanation": "Tačan odgovor je: finansijsko predviđanje."
+  },
+  {
+    "question": "Tržište na kome se trguje kratkoročnim novčanim sredstavima:",
+    "options": [
+      {
+        "text": "novčano tržište",
+        "correct": true
+      }
+    ],
+    "explanation": "Tačan odgovor je: novčano tržište."
+  },
+  {
+    "question": "Nedepozitne finansijske institucije su:",
+    "options": [
+      {
+        "text": "penzioni fondovi",
+        "correct": true
+      },
+      {
+        "text": "investicioni fondovi",
+        "correct": true
+      },
+      {
+        "text": "kreditno - štedne institucije",
+        "correct": false
+      },
+      {
+        "text": "osiguravajuća društva",
+        "correct": true
+      },
+      {
+        "text": "komercijalne banke",
+        "correct": false
+      }
+    ],
+    "explanation": "Tačni odgovori su: penzioni fondovi, investicioni fondovi, osiguravajuća društva."
+  },
+  {
+    "question": "Kada se isplata po akredetivu vrši nakon određenog roka naznačenog u akreditivu, reč je o:",
+    "options": [
+      {
+        "text": "nostro akreditivu",
+        "correct": false
+      },
+      {
+        "text": "terminskom akr.",
+        "correct": true
+      },
+      {
+        "text": "prenosivom akr.",
+        "correct": false
+      },
+      {
+        "text": "domiliciliranom akr.",
+        "correct": false
+      },
+      {
+        "text": "a vista akr.",
+        "correct": false
+      }
+    ],
+    "explanation": "Tačan odgovor je: terminskom akr.."
+  },
+  {
+    "question": "Materijalna stalna sredstva (imovina) su:",
+    "options": [
+      {
+        "text": "akcije i obveznice",
+        "correct": false
+      },
+      {
+        "text": "dugoročni fin plasmani",
+        "correct": false
+      },
+      {
+        "text": "zalihe",
+        "correct": false
+      },
+      {
+        "text": "materijalna prava",
+        "correct": false
+      },
+      {
+        "text": "nekretnine, postrojenja i oprema",
+        "correct": true
+      }
+    ],
+    "explanation": "Tačan odgovor je: nekretnine, postrojenja i oprema."
+  },
+  {
+    "question": "Računi ispravki vrednosti su:",
+    "options": [
+      {
+        "text": "računi uspeha (računi stanja su)",
+        "correct": false
+      },
+      {
+        "text": "isključivo aktivni računi",
+        "correct": false
+      },
+      {
+        "text": "isključivo pasivni računi",
+        "correct": false
+      },
+      {
+        "text": "korektivni računi",
+        "correct": true
+      },
+      {
+        "text": "uvek vezani za neki drugi račun",
+        "correct": true
+      }
+    ],
+    "explanation": "Tačni odgovori su: korektivni računi, uvek vezani za neki drugi račun."
+  },
+  {
+    "question": "Racio koji pokazuje vreme koje protekne od nabavke resursa do prodaje gotovih proizvoda:",
+    "options": [
+      {
+        "text": "prosečan period obrta zaliha",
+        "correct": true
+      },
+      {
+        "text": "koeficijent obrta zaliha",
+        "correct": false
+      },
+      {
+        "text": "koeficijent obrta kupaca",
+        "correct": false
+      },
+      {
+        "text": "prosečan period isplate",
+        "correct": false
+      }
+    ],
+    "explanation": "Tačan odgovor je: prosečan period obrta zaliha."
+  },
+  {
+    "question": "Unapred naplaćeni prihodi (PVR) se tretiraju kao:",
+    "options": [
+      {
+        "text": "imovina i novčani prilivi",
+        "correct": false
+      },
+      {
+        "text": "obaveza i novčani prilivi",
+        "correct": true
+      },
+      {
+        "text": "stavka bilansa uspeha i nov. priliva",
+        "correct": false
+      },
+      {
+        "text": "ništa od ponuđenog",
+        "correct": false
+      }
+    ],
+    "explanation": "Tačan odgovor je: obaveza i novčani prilivi."
+  },
+  {
+    "question": "U slučaju prodaje osnovnih sredstava po ceni višoj od njihove sadašnje vrednosti:",
+    "options": [
+      {
+        "text": "finansijski prihod",
+        "correct": false
+      },
+      {
+        "text": "dobitak od prodaje",
+        "correct": true
+      },
+      {
+        "text": "poslovni prihod",
+        "correct": false
+      },
+      {
+        "text": "gubitak kod prodaje",
+        "correct": false
+      },
+      {
+        "text": "neposlovni prihod",
+        "correct": false
+      }
+    ],
+    "explanation": "Tačan odgovor je: dobitak od prodaje."
+  },
+  {
+    "question": "Kao rezultat odnosa neto dobiti i angažovanih sopstvenih sredstava, dobija se:",
+    "options": [
+      {
+        "text": "stopa prinosa na sopstvena sredstva",
+        "correct": true
+      }
+    ],
+    "explanation": "Tačan odgovor je: stopa prinosa na sopstvena sredstva."
+  },
+  {
+    "question": "Investicione banke:",
+    "options": [
+      {
+        "text": "kreiraju depozite po viđenju",
+        "correct": false
+      },
+      {
+        "text": "utvrđaju deviznu i monetarnu politiku",
+        "correct": false
+      },
+      {
+        "text": "učestvuju u restruktuiranju preduzeća",
+        "correct": true
+      },
+      {
+        "text": "trguju hartijama od vrednosti",
+        "correct": true
+      },
+      {
+        "text": "emitiju hartije od vrednosti",
+        "correct": true
+      }
+    ],
+    "explanation": "Tačni odgovori su: učestvuju u restruktuiranju preduzeća, trguju hartijama od vrednosti, emitiju hartije od vrednosti."
+  },
+  {
+    "question": "Potraživanje prema celoukupnom invertaru u slučaju zalaganja invertara senaziva:",
+    "options": [
+      {
+        "text": "nijedan od navedenih odgovora",
+        "correct": false
+      },
+      {
+        "text": "hipoteka nad pokretnom imovinom",
+        "correct": false
+      },
+      {
+        "text": "prijem na skladištenje",
+        "correct": false
+      },
+      {
+        "text": "primanje pod nadzor",
+        "correct": false
+      },
+      {
+        "text": "pravo zadržavanja",
+        "correct": true
+      }
+    ],
+    "explanation": "Tačan odgovor je: pravo zadržavanja."
+  },
+  {
+    "question": "Troškovi koji u datom obračunatom periodu nemaju konačnog nosioca i nisu deo obračunato razdoblja, nazivaju se:",
+    "options": [
+      {
+        "text": "Nedospeli rashodi",
+        "correct": false
+      },
+      {
+        "text": "Neukalkulisani troškovi",
+        "correct": true
+      },
+      {
+        "text": "Sumnjiva potraživanje",
+        "correct": false
+      },
+      {
+        "text": "Materijalni troškovi",
+        "correct": false
+      },
+      {
+        "text": "Obaveze na osnovu udruženih sredstava",
+        "correct": false
+      }
+    ],
+    "explanation": "Tačan odgovor je: Neukalkulisani troškovi."
+  },
+  {
+    "question": "Bruto dobit je:",
+    "options": [
+      {
+        "text": "Razlika ukupnih prihoda i rashoda",
+        "correct": false
+      },
+      {
+        "text": "Razlika ukupnih prihoda i rashoda koji se odnose na proizvodnju",
+        "correct": true
+      },
+      {
+        "text": "Negativan poslovni rezultat",
+        "correct": false
+      },
+      {
+        "text": "Deo za isplatu dividendi",
+        "correct": false
+      },
+      {
+        "text": "Poslovni rezultat",
+        "correct": false
+      }
+    ],
+    "explanation": "Tačan odgovor je: Razlika ukupnih prihoda i rashoda koji se odnose na proizvodnju."
+  },
+  {
+    "question": "Metoda koja zahteva poznat trošak kapitala da bi se procenila isplativostulaganja je:",
+    "options": [
+      {
+        "text": "interna stopa prinosa",
+        "correct": true
+      },
+      {
+        "text": "neto sadašnja vrednost",
+        "correct": true
+      },
+      {
+        "text": "nijedna od navedenih metoda ne zahteva poznat trošak kapitala",
+        "correct": false
+      },
+      {
+        "text": "indeks profitabilnosti",
+        "correct": true
+      },
+      {
+        "text": "prosečan period povraćaja",
+        "correct": false
+      }
+    ],
+    "explanation": "Tačni odgovori su: interna stopa prinosa, neto sadašnja vrednost, indeks profitabilnosti."
+  },
+  {
+    "question": "Za preduzeće koje nema zalihe:",
+    "options": [
+      {
+        "text": "ORL=BRL",
+        "correct": true
+      }
+    ],
+    "explanation": "Tačan odgovor je: ORL=BRL."
+  },
+  {
+    "question": "Pod stalnim sredstvima (imovinom) se podrazumevaju:",
+    "options": [
+      {
+        "text": "emitovane dugoročne obveznice",
+        "correct": false
+      },
+      {
+        "text": "sredstva koja se u poslovnim procesima vraćaju u prvobitni pojavni oblik",
+        "correct": false
+      },
+      {
+        "text": "sredstva koja učestvujući u poslovnim procesima postepeno prenose svoju vrednost na postojeće učinke",
+        "correct": false
+      },
+      {
+        "text": "dugoročni finansijski plasmani",
+        "correct": false
+      },
+      {
+        "text": "sredstva koja se ne amortizuju",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Pomoćne knjigovodstvene evidencije:",
+    "options": [
+      {
+        "text": "Pomoćna knjiga kupaca",
+        "correct": true
+      },
+      {
+        "text": "Pomoćna knjiga dobavljača",
+        "correct": true
+      },
+      {
+        "text": "Knjiga materijala",
+        "correct": true
+      },
+      {
+        "text": "Evidencija zaliha",
+        "correct": true
+      },
+      {
+        "text": "Analitičke evidencije (npr. za nekretnine, kapital..)",
+        "correct": true
+      }
+    ],
+    "explanation": "Tačni odgovori su: Pomoćna knjiga kupaca, Pomoćna knjiga dobavljača, Knjiga materijala, Evidencija zaliha, Analitičke evidencije (npr. za nekretnine, kapital..)."
+  },
+  {
+    "question": "U slučaju postojanja ustaljenih poslovnih odnosa (strateškog partnerstva) ivisokog kreditnog skora kupca, kao instrument plaćanja",
+    "options": [
+      {
+        "text": "sopstvena menica",
+        "correct": false
+      },
+      {
+        "text": "garancija",
+        "correct": false
+      },
+      {
+        "text": "vučena menica",
+        "correct": false
+      },
+      {
+        "text": "otvoreni račun",
+        "correct": false
+      },
+      {
+        "text": "akreditiv",
+        "correct": true
+      }
+    ],
+    "explanation": "Tačan odgovor je: akreditiv."
+  },
+  {
+    "question": "Kada preduzeće gotovinu na računu drži da bi depozitom obezbedio dobijanjekredita, takav razlog je:",
+    "options": [
+      {
+        "text": "špekulativni",
+        "correct": false
+      },
+      {
+        "text": "razlog predostrožnosti",
+        "correct": false
+      },
+      {
+        "text": "depozitni",
+        "correct": false
+      },
+      {
+        "text": "kompenzacioni",
+        "correct": true
+      },
+      {
+        "text": "transakcioni",
+        "correct": false
+      }
+    ],
+    "explanation": "Tačan odgovor je: kompenzacioni."
+  },
+  {
+    "question": "Kada se izvestan saldo gotovine u preduzecu drzi sa ciljem dnevnihizmirivanja dospelih obaveza, takav se razlog naziva:",
+    "options": [
+      {
+        "text": "transakcioni",
+        "correct": true
+      }
+    ],
+    "explanation": "Tačan odgovor je: transakcioni."
+  },
+  {
+    "question": "Tržišna vrednost određene akcije zavisi od:",
+    "options": [
+      {
+        "text": "nominalna vr + azio?",
+        "correct": true
+      }
+    ],
+    "explanation": "Tačan odgovor je: nominalna vr + azio?."
+  },
+  {
+    "question": "Okvir za odgovarajuće reakcije preduzeća u uslovima neizvesnostiuspostavlja se:",
+    "options": [
+      {
+        "text": "zadovoljavajućim planiranjem",
+        "correct": false
+      },
+      {
+        "text": "inovativnim planiranjem",
+        "correct": true
+      },
+      {
+        "text": "optimalnim planiranjem",
+        "correct": false
+      },
+      {
+        "text": "operativnim planiranjem",
+        "correct": false
+      },
+      {
+        "text": "osnovnim planiranjem",
+        "correct": false
+      }
+    ],
+    "explanation": "Tačan odgovor je: inovativnim planiranjem."
+  },
+  {
+    "question": "U komisione (neutralne) bankarske poslove se ubravaju:",
+    "options": [
+      {
+        "text": "menjački poslovi",
+        "correct": false
+      },
+      {
+        "text": "eskontni poslovi",
+        "correct": false
+      },
+      {
+        "text": "izdavanje kreditnih pisama",
+        "correct": true
+      },
+      {
+        "text": "emitovanje obveznica  // ipak je pasivannn",
+        "correct": false
+      },
+      {
+        "text": "otvaranje akreditiva",
+        "correct": true
+      }
+    ],
+    "explanation": "Tačni odgovori su: izdavanje kreditnih pisama, otvaranje akreditiva."
+  },
+  {
+    "question": "Izdavanja bankarskih garancija je:",
+    "options": [
+      {
+        "text": "neutralni posao",
+        "correct": true
+      }
+    ],
+    "explanation": "Tačan odgovor je: neutralni posao."
+  },
+  {
+    "question": "Odaberite jedan projekat koji maksimira vrednost preduzeća, ako su poznatinjihovi neto sadašnja vrednost (NSV) i prosečan period povraćaja (PPP):",
+    "options": [
+      {
+        "text": "C: NSV = 150,000 PPP = 15 godina",
+        "correct": false
+      },
+      {
+        "text": "D: NSV = 100,000 PPP = 6 meseci",
+        "correct": false
+      },
+      {
+        "text": "nijedan projekat ne uvećava vrednost preduzeća",
+        "correct": false
+      },
+      {
+        "text": "B: NSV = 450,000 PPP = 2 godine",
+        "correct": true
+      },
+      {
+        "text": "A: NSV = 500,000 PPP = 32 godine",
+        "correct": false
+      }
+    ],
+    "explanation": "Tačan odgovor je: B: NSV = 450,000 PPP = 2 godine."
+  },
+  {
+    "question": "Metoda(e) koja se zasniva na konceptu vremenske vrednosti novca je:",
+    "options": [
+      {
+        "text": "prosečan period povraćaja",
+        "correct": false
+      },
+      {
+        "text": "cena kapitala",
+        "correct": false
+      },
+      {
+        "text": "interna stopa prinosa",
+        "correct": true
+      },
+      {
+        "text": "neto sadašnja vrednost",
+        "correct": true
+      },
+      {
+        "text": "indeks profitabilnosti",
+        "correct": true
+      }
+    ],
+    "explanation": "Tačni odgovori su: interna stopa prinosa, neto sadašnja vrednost, indeks profitabilnosti."
+  },
+  {
+    "question": "Emisija efekata za sopstveni račun:",
+    "options": [
+      {
+        "text": "pasivni",
+        "correct": true
+      }
+    ],
+    "explanation": "Tačan odgovor je: pasivni."
+  },
+  {
+    "question": "Nematerijalna imovina čine:",
+    "options": [
+      {
+        "text": "prava na model",
+        "correct": true
+      },
+      {
+        "text": "licence, softveri, patenti",
+        "correct": true
+      },
+      {
+        "text": "sredstva koja se ne amortizuju",
+        "correct": false
+      },
+      {
+        "text": "dugoročni finansijski plasmani",
+        "correct": false
+      },
+      {
+        "text": "emisiona premija (ažio)",
+        "correct": false
+      }
+    ],
+    "explanation": "Tačni odgovori su: prava na model, licence, softveri, patenti."
+  },
+  {
+    "question": "Nove emisije hartija od vrednosti preduzeća obavljaju se na:",
+    "options": [
+      {
+        "text": "sekundarnom tržišu kapitala",
+        "correct": false
+      },
+      {
+        "text": "međubankarskom tržištu",
+        "correct": false
+      },
+      {
+        "text": "novčanom tržištu",
+        "correct": false
+      },
+      {
+        "text": "primarnom tržištu kapitala",
+        "correct": true
+      },
+      {
+        "text": "deviznom tržištu",
+        "correct": false
+      }
+    ],
+    "explanation": "Tačan odgovor je: primarnom tržištu kapitala."
+  },
+  {
+    "question": "Kod operativnog lizinga karakteristično je:",
+    "options": [
+      {
+        "text": "sredstvo po isteku lizinga ostaje davaocu lizinga",
+        "correct": true
+      },
+      {
+        "text": "rizik i koristi padaju na primaoca lizinga",
+        "correct": false
+      },
+      {
+        "text": "rok trajanja odgovora je približno jednak veku trajanja sredstva",
+        "correct": false
+      },
+      {
+        "text": "prednost lizinga su trajna dobra",
+        "correct": true
+      },
+      {
+        "text": "računovodstveno se tretira kao rashod",
+        "correct": true
+      }
+    ],
+    "explanation": "Tačni odgovori su: sredstvo po isteku lizinga ostaje davaocu lizinga, prednost lizinga su trajna dobra, računovodstveno se tretira kao rashod."
+  },
+  {
+    "question": "Kod finansijskog lizinga karakteristično je:",
+    "options": [
+      {
+        "text": "sredstvo po isteku lizinga ostaje davaocu lizinga",
+        "correct": true
+      },
+      {
+        "text": "rizik i koristi padaju na primaoca lizinga",
+        "correct": true
+      },
+      {
+        "text": "rok trajanja odgovora je približno jednak veku trajanja sredstva",
+        "correct": false
+      },
+      {
+        "text": "prednost lizinga su trajna dobra",
+        "correct": false
+      },
+      {
+        "text": "računovodstveno se tretira kao rashod",
+        "correct": false
+      }
+    ],
+    "explanation": "Tačni odgovori su: sredstvo po isteku lizinga ostaje davaocu lizinga, rizik i koristi padaju na primaoca lizinga."
+  },
+  {
+    "question": "Suština hedžing pristupa je:",
+    "options": [
+      {
+        "text": "da kratkoročnim izvorima budu finansirane povremene potrebe za sredstvima",
+        "correct": false
+      },
+      {
+        "text": "ništa od navedenog",
+        "correct": false
+      },
+      {
+        "text": "da dugoročnim izvorima budu finansirane povremene potrebe za sredstvima",
+        "correct": false
+      },
+      {
+        "text": "da dugoročnim izvorima budu finansirana osnovna sredstva",
+        "correct": true
+      },
+      {
+        "text": "da dugoročnim izvorima budu finansirana trajna obrtna sredstva",
+        "correct": true
+      }
+    ],
+    "explanation": "Tačni odgovori su: da dugoročnim izvorima budu finansirana osnovna sredstva, da dugoročnim izvorima budu finansirana trajna obrtna sredstva."
+  },
+  {
+    "question": "U kratkoročne obaveze preduzeća se ubrajaju:",
+    "options": [
+      {
+        "text": "kratkoročni plasmani",
+        "correct": false
+      },
+      {
+        "text": "ažio",
+        "correct": false
+      },
+      {
+        "text": "slobodne rezerve",
+        "correct": false
+      },
+      {
+        "text": "emitovani i prodati komercijalni zapisi",
+        "correct": true
+      },
+      {
+        "text": "ukalkulisane obaveze",
+        "correct": true
+      }
+    ],
+    "explanation": "Tačni odgovori su: emitovani i prodati komercijalni zapisi, ukalkulisane obaveze."
+  },
+  {
+    "question": "Finansijski izveštaj koji se sastavlja za određeni period (najčešće godinudana) je:",
+    "options": [
+      {
+        "text": "bilans stanja",
+        "correct": true
+      },
+      {
+        "text": "bilans uspeha",
+        "correct": true
+      },
+      {
+        "text": "izveštaj o novčanim tokovima",
+        "correct": true
+      },
+      {
+        "text": "izveštaj o promenama na kapitalu",
+        "correct": false
+      },
+      {
+        "text": "napomene uz fin. izveštaje",
+        "correct": false
+      }
+    ],
+    "explanation": "Tačni odgovori su: bilans stanja, bilans uspeha, izveštaj o novčanim tokovima."
+  },
+  {
+    "question": "U kategoriju poslovnih prihoda preduzeca ubrajaju se:",
+    "options": [
+      {
+        "text": "prihodi od kamata",
+        "correct": false
+      },
+      {
+        "text": "negativne kursne razlike",
+        "correct": false
+      },
+      {
+        "text": "prihodi od prodaje proizvoda i usluga",
+        "correct": true
+      },
+      {
+        "text": "dugorocna rezervisanja",
+        "correct": false
+      },
+      {
+        "text": "prihodi na osnovu naplate otpisanih potrazivanja",
+        "correct": false
+      }
+    ],
+    "explanation": "Tačan odgovor je: prihodi od prodaje proizvoda i usluga."
+  },
+  {
+    "question": "Ako je planska nabavna vrednost materijala veca od njegove stvarne vrednosti tacno je:",
+    "options": [
+      {
+        "text": "rec je o negativnom odstupanju",
+        "correct": false
+      },
+      {
+        "text": "razlika se evidentira na dugovnoj strain racuna 1009",
+        "correct": false
+      },
+      {
+        "text": "razlika se evidentira na potraznoj strani racuna 1009",
+        "correct": true
+      },
+      {
+        "text": "razlika se evidentira na potraznoj strani racuna 100",
+        "correct": false
+      },
+      {
+        "text": "rec je o pozitivnom odstupanju",
+        "correct": true
+      }
+    ],
+    "explanation": "Tačni odgovori su: razlika se evidentira na potraznoj strani racuna 1009, rec je o pozitivnom odstupanju."
+  },
+  {
+    "question": "Kada se visina otpisa osnovnog sredstva povecava iz godine u godinu rec je o?",
+    "options": [
+      {
+        "text": "čini trosak amortizacije",
+        "correct": true
+      },
+      {
+        "text": "metod vremenskog otpisivanja obracunata na osnovu progresivnog otpisa",
+        "correct": true
+      }
+    ],
+    "explanation": "Tačni odgovori su: čini trosak amortizacije, metod vremenskog otpisivanja obracunata na osnovu progresivnog otpisa."
+  },
+  {
+    "question": "Bilansna pozicija dugoročnih rezervisanja je element:",
+    "options": [
+      {
+        "text": "osnovnih sredstava",
+        "correct": false
+      },
+      {
+        "text": "obrtnih sredstava",
+        "correct": false
+      },
+      {
+        "text": "sopstvenog kapitala",
+        "correct": false
+      },
+      {
+        "text": "obaveza",
+        "correct": true
+      },
+      {
+        "text": "prihoda",
+        "correct": false
+      }
+    ],
+    "explanation": "Tačan odgovor je: obaveza."
+  },
+  {
+    "question": "Ocekivani obim usluga koje osnovno sredstvo moze da pruzi koristi se za utvrdjivanje otpisa kod:",
+    "options": [
+      {
+        "text": "linearnog otp isa",
+        "correct": false
+      },
+      {
+        "text": "progresivnog otpisa",
+        "correct": false
+      },
+      {
+        "text": "funkcionalnog metoda",
+        "correct": true
+      },
+      {
+        "text": "metode aritmeticke digresije",
+        "correct": false
+      },
+      {
+        "text": "metode geometrijske progresije",
+        "correct": false
+      }
+    ],
+    "explanation": "Tačan odgovor je: funkcionalnog metoda."
+  },
+  {
+    "question": "Finansijski izvestaju koji su direktan proizvod dvojnog knjigovodstva: a) bilans stanja",
+    "options": [
+      {
+        "text": "dnevnik",
+        "correct": false
+      },
+      {
+        "text": "bilans uspeha",
+        "correct": true
+      },
+      {
+        "text": "napomene uz fin izvestaje",
+        "correct": false
+      },
+      {
+        "text": "glavna knjiga",
+        "correct": false
+      }
+    ],
+    "explanation": "Tačan odgovor je: bilans uspeha."
+  },
+  {
+    "question": "Ako vrednost neto obrtnih sredstava raste to nužno znači da:",
+    "options": [
+      {
+        "text": "Vrednost ORL ne može da opada",
+        "correct": false
+      },
+      {
+        "text": "Neminovno ostaje isti ORL",
+        "correct": false
+      },
+      {
+        "text": "Neminovno opada vrednost ORL",
+        "correct": false
+      },
+      {
+        "text": "Neminovno raste vrednost ORL",
+        "correct": false
+      },
+      {
+        "text": "Vrednost ORL može da raste, opada, I ostane ista",
+        "correct": true
+      }
+    ],
+    "explanation": "Tačan odgovor je: Vrednost ORL može da raste, opada, I ostane ista."
+  },
+  {
+    "question": "U sredstva preduzeca ubrajaju se:",
+    "options": [
+      {
+        "text": "prodaja proizvoda",
+        "correct": false
+      },
+      {
+        "text": "sporna potrazivanja",
+        "correct": true
+      },
+      {
+        "text": "menicne obaveze",
+        "correct": false
+      },
+      {
+        "text": "kratkorocni finansijska ulaganja",
+        "correct": true
+      },
+      {
+        "text": "primljeni avansi",
+        "correct": false
+      }
+    ],
+    "explanation": "Tačni odgovori su: sporna potrazivanja, kratkorocni finansijska ulaganja."
+  },
+  {
+    "question": "U sredstva preduzeća ubrajaju se:",
+    "options": [
+      {
+        "text": "emitovane HOV",
+        "correct": false
+      },
+      {
+        "text": "kratkoročna fin ulaganja",
+        "correct": true
+      },
+      {
+        "text": "gudvil",
+        "correct": true
+      },
+      {
+        "text": "ukalkulisane obaveze",
+        "correct": false
+      },
+      {
+        "text": "menične obaveze",
+        "correct": false
+      }
+    ],
+    "explanation": "Tačni odgovori su: kratkoročna fin ulaganja, gudvil."
+  },
+  {
+    "question": "Kojom metodom se vrsi obracun troskova materijala po cenama poslednjih nabavki?",
+    "options": [
+      {
+        "text": "fifo",
+        "correct": false
+      },
+      {
+        "text": "lifo",
+        "correct": true
+      },
+      {
+        "text": "metod ponderisane prosecne cene",
+        "correct": false
+      },
+      {
+        "text": "hifo",
+        "correct": false
+      },
+      {
+        "text": "lofo",
+        "correct": false
+      }
+    ],
+    "explanation": "Tačan odgovor je: lifo."
+  },
+  {
+    "question": "Ukoliko preduzece A u predvidjenom roku plati robu preduzecu B I na taj nacin realizuje kasa skonto u iznosu od 10000 to za preduzece A predstavlja:",
+    "options": [
+      {
+        "text": "ostali I vanredni rashodi",
+        "correct": false
+      },
+      {
+        "text": "ostali I vanredni prihod",
+        "correct": false
+      },
+      {
+        "text": "finansijski rashod",
+        "correct": false
+      },
+      {
+        "text": "prihod od prodaje robe",
+        "correct": false
+      },
+      {
+        "text": "finansijski prihod",
+        "correct": true
+      }
+    ],
+    "explanation": "Tačan odgovor je: finansijski prihod."
+  },
+  {
+    "question": "Naplata otpisanog potrazivanja od kupaca pripada kategoriji:",
+    "options": [
+      {
+        "text": "finansijskih prihoda",
+        "correct": false
+      },
+      {
+        "text": "poslovnih prihoda",
+        "correct": false
+      },
+      {
+        "text": "ostalih i neposlovnih prihoda (to bi bili vanredni prihodi)",
+        "correct": true
+      },
+      {
+        "text": "poslovnih rashoda",
+        "correct": false
+      },
+      {
+        "text": "nista od navedenog",
+        "correct": false
+      }
+    ],
+    "explanation": "Tačan odgovor je: ostalih i neposlovnih prihoda (to bi bili vanredni prihodi)."
+  },
+  {
+    "question": "Metoda prema kojoj troskovi otpisa osnovnih sredstava iskljucivo zavise od njihovog fizickog trosenja je:",
+    "options": [
+      {
+        "text": "metoda progresivnog otpisa",
+        "correct": false
+      },
+      {
+        "text": "funkcionalna metoda",
+        "correct": true
+      },
+      {
+        "text": "metoda aritmeticke degresije",
+        "correct": false
+      },
+      {
+        "text": "metoda geometrijske progresije",
+        "correct": false
+      },
+      {
+        "text": "metoda linearnog otpisa - ovo je jer ne zavisi od vremena.",
+        "correct": false
+      }
+    ],
+    "explanation": "Tačan odgovor je: funkcionalna metoda."
+  },
+  {
+    "question": "Rashodi koji nastaju po osnovu korišćenja kreditnih izvora su:",
+    "options": [
+      {
+        "text": "Poslovni rashodi",
+        "correct": false
+      },
+      {
+        "text": "Direktni troškovi",
+        "correct": false
+      },
+      {
+        "text": "Finansijski rashodi",
+        "correct": true
+      },
+      {
+        "text": "Indirektni troškovi",
+        "correct": false
+      },
+      {
+        "text": "Troškovi nabavke",
+        "correct": false
+      }
+    ],
+    "explanation": "Tačan odgovor je: Finansijski rashodi."
+  },
+  {
+    "question": "Kada banka korisniku kredita ne stavlja na raspolaganje novčana sredstva, već se indirektno obavezuje za njegov račun, takav kredit se naziva:",
+    "options": [
+      {
+        "text": "rambursni",
+        "correct": false
+      },
+      {
+        "text": "akceptni",
+        "correct": true
+      },
+      {
+        "text": "lombardni",
+        "correct": false
+      },
+      {
+        "text": "avalni",
+        "correct": false
+      },
+      {
+        "text": "hipoterkarni",
+        "correct": false
+      }
+    ],
+    "explanation": "Tačan odgovor je: akceptni."
+  },
+  {
+    "question": "Emisiona premija je:",
+    "options": [
+      {
+        "text": "Deo kapitala akcionarskog društva",
+        "correct": false
+      },
+      {
+        "text": "Zakonska rezerva preduzeća",
+        "correct": false
+      },
+      {
+        "text": "Razlika između više prodajne cene akcija i nominalne vrednosti",
+        "correct": true
+      },
+      {
+        "text": "Razlika između više prodajne cene akcija i tržišne vrednosti",
+        "correct": false
+      },
+      {
+        "text": "Dugoročna obavzea",
+        "correct": false
+      }
+    ],
+    "explanation": "Tačan odgovor je: Razlika između više prodajne cene akcija i nominalne vrednosti."
+  },
+  {
+    "question": "Dugoročni finansijski plasmani pripadaju poziciji:",
+    "options": [
+      {
+        "text": "Dugoročnih rezervisanja",
+        "correct": false
+      },
+      {
+        "text": "Dugoročnih obaveza",
+        "correct": false
+      },
+      {
+        "text": "Stalnih sredstava",
+        "correct": true
+      },
+      {
+        "text": "Rezervi",
+        "correct": false
+      },
+      {
+        "text": "Obrtnih sredstava",
+        "correct": false
+      }
+    ],
+    "explanation": "Tačan odgovor je: Stalnih sredstava."
+  },
+  {
+    "question": "U obrtna sredstva se svrstavaju:",
+    "options": [
+      {
+        "text": "Rezervisanja",
+        "correct": false
+      },
+      {
+        "text": "Nedovršena proizvodnja",
+        "correct": true
+      },
+      {
+        "text": "Menične obaveze",
+        "correct": false
+      },
+      {
+        "text": "Kratkoročni finansijski plasmani",
+        "correct": true
+      },
+      {
+        "text": "Učešća u drugim privrednim društvima(nisam siguran da li je i ovo)",
+        "correct": false
+      }
+    ],
+    "explanation": "Tačni odgovori su: Nedovršena proizvodnja, Kratkoročni finansijski plasmani."
+  },
+  {
+    "question": "U kategoriju poslovnih rashoda preduzeća ubrajaju se:",
+    "options": [
+      {
+        "text": "Troškovi neproizvodnih usluga",
+        "correct": true
+      },
+      {
+        "text": "Negativne kursne razlike",
+        "correct": false
+      },
+      {
+        "text": "Rashodi na osnovu plaćenih kazni",
+        "correct": false
+      },
+      {
+        "text": "Nabavna vrednost prodate robe",
+        "correct": true
+      },
+      {
+        "text": "Rashodi kamata",
+        "correct": false
+      }
+    ],
+    "explanation": "Tačni odgovori su: Troškovi neproizvodnih usluga, Nabavna vrednost prodate robe."
+  },
+  {
+    "question": "Kada se visina otpisa osnovnog sredstva povećava iz godine u godinu, reč je o:",
+    "options": [
+      {
+        "text": "Metodi linearnog otpisa",
+        "correct": false
+      },
+      {
+        "text": "Metodi geometrijske progresije",
+        "correct": false
+      },
+      {
+        "text": "Metodi progresivnog otpisa",
+        "correct": true
+      },
+      {
+        "text": "Funkcionalnoj metodi",
+        "correct": false
+      },
+      {
+        "text": "Metodi aritmetičke degresije",
+        "correct": false
+      }
+    ],
+    "explanation": "Tačan odgovor je: Metodi progresivnog otpisa."
+  },
+  {
+    "question": "Finansijsko računovodstvo:",
+    "options": [
+      {
+        "text": "Pruža finansijske informacije eksternim stejkholderima",
+        "correct": true
+      },
+      {
+        "text": "Koristi se isključivo u profitno orijentisanim organizacijama",
+        "correct": false
+      },
+      {
+        "text": "Kreira izveštaje prema specifičnim zahtevima preduzeća menadžmenta preduzeća",
+        "correct": false
+      },
+      {
+        "text": "Orijentisano je ka budućnosti",
+        "correct": false
+      },
+      {
+        "text": "Poštuje opšte prihvaćene principe računovodstva",
+        "correct": true
+      }
+    ],
+    "explanation": "Tačni odgovori su: Pruža finansijske informacije eksternim stejkholderima, Poštuje opšte prihvaćene principe računovodstva."
+  },
+  {
+    "question": "U izvore sredstava preduzeća se ubrajaju:",
+    "options": [
+      {
+        "text": "Dati avansi",
+        "correct": false
+      },
+      {
+        "text": "Menične obaveze",
+        "correct": true
+      },
+      {
+        "text": "Kratkoročna finansijska ulaganja",
+        "correct": false
+      },
+      {
+        "text": "Dugoročna rezervisanja",
+        "correct": true
+      },
+      {
+        "text": "Sporna potraživanja",
+        "correct": false
+      }
+    ],
+    "explanation": "Tačni odgovori su: Menične obaveze, Dugoročna rezervisanja."
+  },
+  {
+    "question": "Troškovi transporta, poštanskog saobraćaja i komunalnih usluga čine:",
+    "options": [
+      {
+        "text": "Materijalne troškove",
+        "correct": false
+      },
+      {
+        "text": "Finansijske rashode",
+        "correct": false
+      },
+      {
+        "text": "Troškovi ličnih dohodaka",
+        "correct": false
+      },
+      {
+        "text": "Troškove proizvodnih usluga",
+        "correct": true
+      },
+      {
+        "text": "Troškove neproizvodnih usluga",
+        "correct": false
+      }
+    ],
+    "explanation": "Tačan odgovor je: Troškove proizvodnih usluga."
+  },
+  {
+    "question": "Obrtna sredstva u obliku novca obuhvataju:",
+    "options": [
+      {
+        "text": "Novac na deviznom računu",
+        "correct": true
+      },
+      {
+        "text": "Novac na izdvojenim računima za tekuće potrebe",
+        "correct": true
+      },
+      {
+        "text": "Otvorene akreditive",
+        "correct": true
+      },
+      {
+        "text": "Novac u blagajni",
+        "correct": true
+      }
+    ],
+    "explanation": "Tačni odgovori su: Novac na deviznom računu, Novac na izdvojenim računima za tekuće potrebe, Otvorene akreditive, Novac u blagajni."
+  },
+  {
+    "question": "Bruto dobit je:",
+    "options": [
+      {
+        "text": "Razlika ukupnih prihoda i rashoda",
+        "correct": true
+      },
+      {
+        "text": "Poslovni rezultat",
+        "correct": true
+      }
+    ],
+    "explanation": "Tačni odgovori su: Razlika ukupnih prihoda i rashoda, Poslovni rezultat."
+  },
+  {
+    "question": "Pozitivnu razliku ukupnih prihoda i ukupnih rashoda nazivamo:",
+    "options": [
+      {
+        "text": "Neto dobit",
+        "correct": true
+      }
+    ],
+    "explanation": "Tačan odgovor je: Neto dobit."
+  },
+  {
+    "question": "Računovodstvo u preduzeću treba da obuhvata:",
+    "options": [
+      {
+        "text": "Knjigovodstvo",
+        "correct": true
+      },
+      {
+        "text": "Rač. planiranje",
+        "correct": true
+      },
+      {
+        "text": "Rač. odlučivanje",
+        "correct": false
+      },
+      {
+        "text": "Rač. kontrola (nadzor)",
+        "correct": true
+      },
+      {
+        "text": "Rač. informacije",
+        "correct": true
+      }
+    ],
+    "explanation": "Tačni odgovori su: Knjigovodstvo, Rač. planiranje, Rač. kontrola (nadzor), Rač. informacije."
+  },
+  {
+    "question": "Usklađivanje originalne vrednosti osnovnih sredstava sa kretanjem cena u veku korišćenja naziva se:",
+    "options": [
+      {
+        "text": "Revalorizacija",
+        "correct": true
+      }
+    ],
+    "explanation": "Tačan odgovor je: Revalorizacija."
+  },
+  {
+    "question": "Pod materijalnim pravima se podrazumevaju:",
+    "options": [
+      {
+        "text": "Patenti",
+        "correct": true
+      },
+      {
+        "text": "Licence",
+        "correct": true
+      },
+      {
+        "text": "Korišćenje proizvodno tehničke dokumentacije",
+        "correct": true
+      },
+      {
+        "text": "Žigovi",
+        "correct": true
+      }
+    ],
+    "explanation": "Tačni odgovori su: Patenti, Licence, Korišćenje proizvodno tehničke dokumentacije, Žigovi."
+  },
+  {
+    "question": "Pozitivna razlika prihoda i rashoda:",
+    "options": [
+      {
+        "text": "Neto dobit",
+        "correct": true
+      }
+    ],
+    "explanation": "Tačan odgovor je: Neto dobit."
+  },
+  {
+    "question": "Razlika prihoda i rashoda",
+    "options": [
+      {
+        "text": "Bruto dobit",
+        "correct": true
+      }
+    ],
+    "explanation": "Tačan odgovor je: Bruto dobit."
+  },
+  {
+    "question": "Pozitivna razlika poslovnih prihoda i poslovnih rashoda",
+    "options": [
+      {
+        "text": "Poslovna dobit",
+        "correct": true
+      }
+    ],
+    "explanation": "Tačan odgovor je: Poslovna dobit."
+  },
+  {
+    "question": "Pomoćne knjigovodstvene evidencije:",
+    "options": [
+      {
+        "text": "Evidencija o materijalu",
+        "correct": true
+      },
+      {
+        "text": "Izveštaj o novčanim tokovima",
+        "correct": false
+      },
+      {
+        "text": "Dnevnik",
+        "correct": false
+      },
+      {
+        "text": "Skladišna knjiga",
+        "correct": true
+      },
+      {
+        "text": "Glavna knjiga",
+        "correct": false
+      }
+    ],
+    "explanation": "Tačni odgovori su: Evidencija o materijalu, Skladišna knjiga."
+  },
+  {
+    "question": "Kada pred ima pozitivna neto obrtna sredstva (OBS) to znači da se:",
+    "options": [
+      {
+        "text": "OBS u celosti finansiraju kratk. Izvorima",
+        "correct": false
+      },
+      {
+        "text": "OBS delom finansiraju dugoročnim izv (+ Osnovna sredstva se u celosti finansiraju iz dugorocnih izvora)",
+        "correct": true
+      },
+      {
+        "text": "OBS u celosti finansiraju dug izvorima",
+        "correct": false
+      },
+      {
+        "text": "OBS delom finansiraju kratk. Izvorima",
+        "correct": true
+      },
+      {
+        "text": "Ništa od navedenog",
+        "correct": false
+      }
+    ],
+    "explanation": "Tačni odgovori su: OBS delom finansiraju dugoročnim izv (+ Osnovna sredstva se u celosti finansiraju iz dugorocnih izvora), OBS delom finansiraju kratk. Izvorima."
+  },
+  {
+    "question": "Knjigovodstveno obuhvatanje prijema osnovnih sredstava",
+    "options": [
+      {
+        "text": "Zaduživanje računa osnovnih sredstava",
+        "correct": true
+      },
+      {
+        "text": "Zaduživanjem računa sopstveni kapital",
+        "correct": false
+      },
+      {
+        "text": "Odobravanjem računa ispravke vrednosti osnovnih sredstava",
+        "correct": true
+      },
+      {
+        "text": "Odobravanjem računa sopstveni kapital",
+        "correct": true
+      },
+      {
+        "text": "Zaduživanjem računa zaliha",
+        "correct": false
+      }
+    ],
+    "explanation": "Tačni odgovori su: Zaduživanje računa osnovnih sredstava, Odobravanjem računa ispravke vrednosti osnovnih sredstava, Odobravanjem računa sopstveni kapital."
+  },
+  {
+    "question": "U metode vremenskog otpisivanje vrednosti osnovih sredstava ubrajaju se:",
+    "options": [
+      {
+        "text": "Metoda progresivnog otpisa",
+        "correct": true
+      },
+      {
+        "text": "Metoda degresivnog otpisa",
+        "correct": true
+      },
+      {
+        "text": "Metoda linearnog otpisa",
+        "correct": true
+      },
+      {
+        "text": "Metoda aritmetičke degresije",
+        "correct": true
+      },
+      {
+        "text": "Metoda geometrijske degresije",
+        "correct": true
+      }
+    ],
+    "explanation": "Tačni odgovori su: Metoda progresivnog otpisa, Metoda degresivnog otpisa, Metoda linearnog otpisa, Metoda aritmetičke degresije, Metoda geometrijske degresije."
+  },
+  {
+    "question": "Menična radnja koja se pokreće u slučaju gubitka menice:",
+    "options": [
+      {
+        "text": "amortizacija menice",
+        "correct": true
+      }
+    ],
+    "explanation": "Tačan odgovor je: amortizacija menice."
+  },
+  {
+    "question": "Finansijske prihode preduzeća čine:",
+    "options": [
+      {
+        "text": "Prihodi od redovnih kamata",
+        "correct": true
+      },
+      {
+        "text": "Primljene menice od kupaca",
+        "correct": false
+      },
+      {
+        "text": "Prihodi od iskorišćenih kasa skonta (od dobavljača)",
+        "correct": true
+      },
+      {
+        "text": "Pozitivne kursne razlike",
+        "correct": true
+      },
+      {
+        "text": "Negativne kursne razlike",
+        "correct": false
+      }
+    ],
+    "explanation": "Tačni odgovori su: Prihodi od redovnih kamata, Prihodi od iskorišćenih kasa skonta (od dobavljača), Pozitivne kursne razlike."
+  },
+  {
+    "question": "Navedite osnovne ekonomske kategorije:",
+    "options": [
+      {
+        "text": "Sredstva i obaveze prema izvorima sredstava, prihodi i rashodi",
+        "correct": true
+      }
+    ],
+    "explanation": "Tačan odgovor je: Sredstva i obaveze prema izvorima sredstava, prihodi i rashodi."
+  },
+  {
+    "question": "Primljeni avansi su pozicija koja pripada:",
+    "options": [
+      {
+        "text": "Kratkoročnim finansijskim plasmanima",
+        "correct": false
+      },
+      {
+        "text": "Kratkoročnim obavezama",
+        "correct": true
+      },
+      {
+        "text": "Kratkoročnim potraživanjima",
+        "correct": false
+      },
+      {
+        "text": "Dugoročnim rezervisanjima",
+        "correct": false
+      },
+      {
+        "text": "Nematerijalnim sredstvima",
+        "correct": false
+      }
+    ],
+    "explanation": "Tačan odgovor je: Kratkoročnim obavezama."
+  },
+  {
+    "question": "Saldo je:",
+    "options": [
+      {
+        "text": "Trenutno stanje pozicije za koju se račun vodi",
+        "correct": true
+      },
+      {
+        "text": "Račun izravnanja",
+        "correct": false
+      },
+      {
+        "text": "Razlika dugovne i potražne strane računa",
+        "correct": true
+      },
+      {
+        "text": "Korektivni račun",
+        "correct": false
+      },
+      {
+        "text": "Pomoćni račun",
+        "correct": false
+      }
+    ],
+    "explanation": "Tačni odgovori su: Trenutno stanje pozicije za koju se račun vodi, Razlika dugovne i potražne strane računa."
+  },
+  {
+    "question": "Upravljačko računovodstvo:",
+    "options": [
+      {
+        "text": "Koristi se isključivo u profitno orijentisanim organizacijama",
+        "correct": false
+      },
+      {
+        "text": "Poštuje opšte prihvaćenje principe računovodstva",
+        "correct": false
+      },
+      {
+        "text": "Orijentisano je ka budućnosti",
+        "correct": true
+      },
+      {
+        "text": "Pruža finansijske informacije eksternim stejkholderima",
+        "correct": false
+      },
+      {
+        "text": "Kreira izveštaje prema specifičnim zahtevima menadžmenta preduzeća",
+        "correct": true
+      }
+    ],
+    "explanation": "Tačni odgovori su: Orijentisano je ka budućnosti, Kreira izveštaje prema specifičnim zahtevima menadžmenta preduzeća."
+  },
+  {
+    "question": "Prevođenje strategijskih planova u akcione planove preduzeća rezultat je:",
+    "options": [
+      {
+        "text": "budžetiranja",
+        "correct": true
+      },
+      {
+        "text": "operativnog planiranja",
+        "correct": false
+      },
+      {
+        "text": "finansijkog planiranja",
+        "correct": false
+      },
+      {
+        "text": "finansijskog predviđenja",
+        "correct": false
+      },
+      {
+        "text": "inovativnog planiranja",
+        "correct": false
+      }
+    ],
+    "explanation": "Tačan odgovor je: budžetiranja."
+  },
+  {
+    "question": "U metode vremenskog otpisivanja vrednosti osnovnih sredstava ubrajaju se:",
+    "options": [
+      {
+        "text": "Metoda progresivnog otpisa",
+        "correct": true
+      },
+      {
+        "text": "Funkcionalna metoda",
+        "correct": false
+      },
+      {
+        "text": "Metoda aritmetičke degresije",
+        "correct": true
+      },
+      {
+        "text": "Metoda geometrijske progresije (treba degresije)",
+        "correct": false
+      },
+      {
+        "text": "Metoda ponderisane prosečne cene",
+        "correct": false
+      }
+    ],
+    "explanation": "Tačni odgovori su: Metoda progresivnog otpisa, Metoda aritmetičke degresije."
+  },
+  {
+    "question": "Odrediti koje od navedenih stalnih materijalnih sredstava podleže obračunuamortizacije:",
+    "options": [
+      {
+        "text": "Zemljište",
+        "correct": false
+      },
+      {
+        "text": "Avansi za nekretnine, postrojenja i opremu",
+        "correct": false
+      },
+      {
+        "text": "Nekretnine, postrojenja i oprema u PRIPREMi",
+        "correct": false
+      },
+      {
+        "text": "Građevinski objekti",
+        "correct": true
+      }
+    ],
+    "explanation": "Tačan odgovor je: Građevinski objekti."
+  },
+  {
+    "question": "Zaokružiti tačnu tvrdnju:",
+    "options": [
+      {
+        "text": "Kapital predstavlja zbir sredstava i obaveza",
+        "correct": false
+      },
+      {
+        "text": "Kapital predstavlja ostatak sredstava pravnog lica nakon odbitka svih njegovih obaveza",
+        "correct": true
+      },
+      {
+        "text": "Kapital predstavlja tuđi izvor sredstava",
+        "correct": false
+      },
+      {
+        "text": "Kapital predstavlja razliku prihoda i rashoda",
+        "correct": false
+      }
+    ],
+    "explanation": "Tačan odgovor je: Kapital predstavlja ostatak sredstava pravnog lica nakon odbitka svih njegovih obaveza."
+  },
+  {
+    "question": "Koje od navedenih sredstava ne spada u obrtna sredstva:",
+    "options": [
+      {
+        "text": "Kratkoročna ulaganja",
+        "correct": false
+      },
+      {
+        "text": "Unapred plaćeni troškovi",
+        "correct": false
+      },
+      {
+        "text": "Obračunati a neplaćeni troškovi",
+        "correct": true
+      },
+      {
+        "text": "Novac i novčani ekvivalenti",
+        "correct": false
+      }
+    ],
+    "explanation": "Tačan odgovor je: Obračunati a neplaćeni troškovi."
+  },
+  {
+    "question": "Metode utvrđivanja periodičnog rezultata su (bilansa uspeha):",
+    "options": [
+      {
+        "text": "Metoda ukupnih troškova",
+        "correct": true
+      },
+      {
+        "text": "Revalorizaciona metoda",
+        "correct": false
+      },
+      {
+        "text": "Funkcionalna metoda",
+        "correct": false
+      },
+      {
+        "text": "Metoda prodatih učinaka",
+        "correct": true
+      },
+      {
+        "text": "Metoda obračunatih zaliha",
+        "correct": false
+      }
+    ],
+    "explanation": "Tačni odgovori su: Metoda ukupnih troškova, Metoda prodatih učinaka."
+  },
+  {
+    "question": "Devizni kurs kojim država utiče na međunarodne ekonomske i finansijsketransakcije?",
+    "options": [
+      {
+        "text": "Višestruki",
+        "correct": true
+      }
+    ],
+    "explanation": "Tačan odgovor je: Višestruki."
+  },
+  {
+    "question": "Početni finansijski ciljevi su:",
+    "options": [
+      {
+        "text": "solventnost",
+        "correct": false
+      },
+      {
+        "text": "likvidnost",
+        "correct": true
+      },
+      {
+        "text": "optimalna struktura sredstava",
+        "correct": true
+      },
+      {
+        "text": "brz obrt sredstava",
+        "correct": false
+      },
+      {
+        "text": "maksimizacija profitabilnosti",
+        "correct": false
+      }
+    ],
+    "explanation": "Tačni odgovori su: likvidnost, optimalna struktura sredstava."
+  },
+  {
+    "question": "Zaokružiti neutralne bankarske poslove:",
+    "options": [
+      {
+        "text": "eskontni poslovi",
+        "correct": false
+      },
+      {
+        "text": "izdavanje kreditnih pisama",
+        "correct": true
+      },
+      {
+        "text": "otvaranja akreditiva",
+        "correct": true
+      },
+      {
+        "text": "inkaso poslovi",
+        "correct": true
+      },
+      {
+        "text": "emitovanje obveznica // ipak je pasivan",
+        "correct": false
+      }
+    ],
+    "explanation": "Tačni odgovori su: izdavanje kreditnih pisama, otvaranja akreditiva, inkaso poslovi."
+  },
+  {
+    "question": "Krajnji finansijski ciljevi su:",
+    "options": [
+      {
+        "text": "solvetnost",
+        "correct": false
+      },
+      {
+        "text": "brz obrt sredstava",
+        "correct": false
+      },
+      {
+        "text": "minimizacija troškova",
+        "correct": false
+      },
+      {
+        "text": "finansijska snaga",
+        "correct": true
+      },
+      {
+        "text": "maksimizacija profitabilnosti",
+        "correct": true
+      }
+    ],
+    "explanation": "Tačni odgovori su: finansijska snaga, maksimizacija profitabilnosti."
+  },
+  {
+    "question": "Optimalna struktura kapitala je:",
+    "options": [
+      {
+        "text": "miks kapitala preduzeća i duga",
+        "correct": false
+      },
+      {
+        "text": "struktura koja obezbeđuje najveću likvidnost",
+        "correct": false
+      },
+      {
+        "text": "struktura koja maksimizira cenu akcije",
+        "correct": true
+      },
+      {
+        "text": "optimalan  balans između rizika i prinosa",
+        "correct": true
+      },
+      {
+        "text": "odnos 1:1 između sopstvenog i tuđeg kapitala",
+        "correct": false
+      }
+    ],
+    "explanation": "Tačni odgovori su: struktura koja maksimizira cenu akcije, optimalan  balans između rizika i prinosa."
+  },
+  {
+    "question": "Stanje i dinamika likvidnost najbolje se prati i analizira preko:",
+    "options": [
+      {
+        "text": "FFL",
+        "correct": false
+      },
+      {
+        "text": "FPL",
+        "correct": false
+      },
+      {
+        "text": "tekućeg racia likvidnosti",
+        "correct": true
+      },
+      {
+        "text": "marže sigurnosti",
+        "correct": false
+      },
+      {
+        "text": "BRL",
+        "correct": true
+      }
+    ],
+    "explanation": "Tačni odgovori su: tekućeg racia likvidnosti, BRL."
+  },
+  {
+    "question": "Vertikalna pravila finansiranja odnose se na pokazatelje:",
+    "options": [
+      {
+        "text": "ORL",
+        "correct": false
+      },
+      {
+        "text": "koeficijent finansijske stabilnosti",
+        "correct": false
+      },
+      {
+        "text": "stepen samofinansiranja",
+        "correct": true
+      },
+      {
+        "text": "marža sigurnosti",
+        "correct": true
+      },
+      {
+        "text": "stepen pokrića",
+        "correct": true
+      }
+    ],
+    "explanation": "Tačni odgovori su: stepen samofinansiranja, marža sigurnosti, stepen pokrića."
+  },
+  {
+    "question": "Ugovor kojim kupac ima pravo, ali ne i obavezu da kupi određeno sredstvona neki datum u budućnosti naziva se:",
+    "options": [
+      {
+        "text": "opcija",
+        "correct": true
+      },
+      {
+        "text": "svop",
+        "correct": false
+      },
+      {
+        "text": "obveznica",
+        "correct": false
+      },
+      {
+        "text": "fjučers",
+        "correct": false
+      }
+    ],
+    "explanation": "Tačan odgovor je: opcija."
+  },
+  {
+    "question": "Finansijski izveštaj koji se sastavlja za određeni period (najčešće godinudana) je:",
+    "options": [
+      {
+        "text": "bilans stanja",
+        "correct": true
+      },
+      {
+        "text": "bilans uspeha",
+        "correct": true
+      },
+      {
+        "text": "izveštaj o novčanim tokovima",
+        "correct": true
+      },
+      {
+        "text": "izveštaj o promenama na kapitalu",
+        "correct": false
+      },
+      {
+        "text": "napomene uz fin. izveštaje",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Ukoliko banka vrši emisiju efekata za sopstveni račun, to za nju predstavlja: a. aktivni posao",
+    "options": [
+      {
+        "text": "sopstveni posao",
+        "correct": false
+      },
+      {
+        "text": "pasivni posao",
+        "correct": true
+      },
+      {
+        "text": "neutralni posao",
+        "correct": false
+      },
+      {
+        "text": "eskontni posao",
+        "correct": false
+      }
+    ],
+    "explanation": "Tačan odgovor je: pasivni posao."
+  },
+  {
+    "question": "Kredit koji se odobrava po tekućem računu između dva preduzeća koja imajuustaljeni poslovni odnos, naziva se:",
+    "options": [
+      {
+        "text": "avalni kredit",
+        "correct": false
+      },
+      {
+        "text": "lombardni kredit",
+        "correct": false
+      },
+      {
+        "text": "eskontni",
+        "correct": false
+      },
+      {
+        "text": "konto-korentni",
+        "correct": true
+      },
+      {
+        "text": "hipotekarni",
+        "correct": false
+      }
+    ],
+    "explanation": "Tačan odgovor je: konto-korentni."
+  },
+  {
+    "question": "Indirektna metoda sastavljanja izveštaja o novčanim tokovima:",
+    "options": [
+      {
+        "text": "Pristup odozdo nagore",
+        "correct": true
+      },
+      {
+        "text": "Pogodna za interne potrebe pred",
+        "correct": false
+      },
+      {
+        "text": "Kompleksnija od direktne",
+        "correct": false
+      },
+      {
+        "text": "Prati bruto tokove gotovine",
+        "correct": false
+      },
+      {
+        "text": "Jednostavnija od direktne",
+        "correct": false
+      }
+    ],
+    "explanation": "Tačan odgovor je: Pristup odozdo nagore."
+  },
+  {
+    "question": "Prenošenje prava po osnovu menice se vrši radnjom koja se naziva:",
+    "options": [
+      {
+        "text": "akceptiranje menice",
+        "correct": false
+      },
+      {
+        "text": "isplata menice",
+        "correct": false
+      },
+      {
+        "text": "indosiranje menice",
+        "correct": true
+      },
+      {
+        "text": "avaliranje menice",
+        "correct": false
+      },
+      {
+        "text": "protest",
+        "correct": false
+      }
+    ],
+    "explanation": "Tačan odgovor je: indosiranje menice."
+  },
+  {
+    "question": "Direktna i indirektna metoda primenjuju se prilikom sačinavanja sledećegfinansijskog izveštaja:",
+    "options": [
+      {
+        "text": "napomene uz fin. izveštaje",
+        "correct": false
+      },
+      {
+        "text": "bilansa stanja",
+        "correct": false
+      },
+      {
+        "text": "izveštaja o promenama na kapitalu",
+        "correct": false
+      },
+      {
+        "text": "izveštaja o novčanim tokovima",
+        "correct": true
+      },
+      {
+        "text": "bilansa uspeha",
+        "correct": false
+      }
+    ],
+    "explanation": "Tačan odgovor je: izveštaja o novčanim tokovima."
+  }
+]
