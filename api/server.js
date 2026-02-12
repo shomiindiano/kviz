@@ -3,6 +3,7 @@ const fs = require("fs");
 const path = require("path");
 const multer = require("multer");
 const cors = require("cors");
+const DATA_DIR = path.join(__dirname, "data");
 const QUESTIONS_DIR = path.join(__dirname, "questions");
 
 const app = express();
