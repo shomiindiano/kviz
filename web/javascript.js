@@ -508,53 +508,73 @@ function submitAnswer() {
 }
 
 /* ---------- Nav ---------- */
-function nextQuestion(){ if (currentIdx < ORDER.length - 1) { currentIdx++; renderAllForMove(); } }
-function prevQuestion(){ if (currentIdx > 0) { currentIdx--; renderAllForMove(); } }
+/* ---------- Next/Prev ---------- */
+function nextQuestion() {
+    if (!randomMode) {
+        if (currentIdx < ORDER.length - 1) { 
+            currentIdx++; 
+            renderAllForMove(); 
+        }
+    } else {
+        // Random mode
+        if (randomPointer < randomHistory.length - 1) {
+            // već imamo pitanje u stogu (vrati unapred)
+            randomPointer++;
+            currentIdx = randomHistory[randomPointer];
+        } else {
+            // Izaberi random neodgovoreno pitanje
+            var unanswered = [];
+            for (var i = 0; i < QUESTIONS.length; i++) {
+                if (!answered[i]) unanswered.push(i);
+            }
+            if (unanswered.length === 0) {
+                showResults();
+                return;
+            }
+            var r = unanswered[Math.floor(Math.random() * unanswered.length)];
+            currentIdx = r;
+            // dodaj u stog
+            randomHistory.push(r);
+            randomPointer++;
+        }
+        renderAllForMove();
+    }
+}
+
+function prevQuestion() {
+    if (!randomMode) {
+        if (currentIdx > 0) { 
+            currentIdx--; 
+            renderAllForMove(); 
+        }
+    } else {
+        // Random mode
+        if (randomPointer > 0) {
+            randomPointer--;
+            currentIdx = randomHistory[randomPointer];
+            renderAllForMove();
+        }
+    }
+}
+
+/* ---------- Random Mode helpers ---------- */
+var randomHistory = []; // stog za random mod
+var randomPointer = -1; // pokazuje gde smo u stogu
 
 function toggleRandomMode() {
     randomMode = !randomMode;
+    randomHistory = [];
+    randomPointer = -1;
 
     if (randomMode) {
-        // Sačuvaj trenutno pitanje
-        var currentQ = ORDER[currentIdx];
-        // Sačuvaj već odgovarane odgovore
-        var answeredCopy = Object.assign({}, answered);
-
-        // Randomizuj ORDER
-        randomizeOrder();
-
-        // Postavi currentIdx tako da pokazuje na isto trenutno pitanje
-        for (var i = 0; i < ORDER.length; i++) {
-            if (ORDER[i] === currentQ) {
-                currentIdx = i;
-                break;
-            }
-        }
-
-        // Vrati answered stanje
-        answered = answeredCopy;
-
         randomModeBtn.className = "btn random-mode-btn active";
         randomModeBtn.innerHTML = '<i class="fas fa-random"></i> Nasumična pitanja: Uključeno';
+
+        // resetuj ORDER da bude normalno, ali Next/Prev koristimo random logiku
     } else {
-        // Isključi random, vrati originalni redosled
-        var currentQ = ORDER[currentIdx];
-        ORDER = [];
-        for (var i = 0; i < QUESTIONS.length; i++) ORDER.push(i);
-
-        // Pronađi gde je trenutno pitanje u originalnom ORDER
-        for (var i = 0; i < ORDER.length; i++) {
-            if (ORDER[i] === currentQ) {
-                currentIdx = i;
-                break;
-            }
-        }
-
         randomModeBtn.className = "btn random-mode-btn";
         randomModeBtn.innerHTML = '<i class="fas fa-random"></i> Nasumična pitanja: Isključeno';
     }
-
-    // Renderuj sve vizuelne elemente
     renderNavGrid();
     renderAllForMove();
 }
@@ -629,6 +649,7 @@ if (backToFilesBtn) backToFilesBtn.onclick = function(){
 
 /* ---------- Init ---------- */
 document.addEventListener("DOMContentLoaded", function(){ loadFileList(); });
+
 
 
 
