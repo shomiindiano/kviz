@@ -1,0 +1,1674 @@
+[
+  {
+    "question": "U zavisnosti od vrednosti donje granice, specijalizacija, generalizacija moze biti:",
+    "options": [
+      {
+        "text": "ekskluzivna i neekskluzivna",
+        "correct": false
+      },
+      {
+        "text": "nadredjena i podredjena",
+        "correct": false
+      },
+      {
+        "text": "primarna i sekundarna",
+        "correct": false
+      },
+      {
+        "text": "obavezna i neobavezna",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Za pozivanje OCL operacija koristi se oznaka:",
+    "options": [
+      {
+        "text": ".",
+        "correct": false
+      },
+      {
+        "text": ":",
+        "correct": true
+      },
+      {
+        "text": "=>",
+        "correct": false
+      },
+      {
+        "text": "->",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Za opis structure i sadrzava tokova i skladista podataka u SSA koristi se:",
+    "options": [
+      {
+        "text": "dijagram konteksta",
+        "correct": false
+      },
+      {
+        "text": "dijagram toka podataka 1. nivoa",
+        "correct": false
+      },
+      {
+        "text": "specifikacija logike primitivnih procesa",
+        "correct": false
+      },
+      {
+        "text": "recnik podataka",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "U UML 2.0 u dijagrame interakcije, pored dijagrama komunikacije spada i:",
+    "options": [
+      {
+        "text": "dijagram prelaza stanja",
+        "correct": false
+      },
+      {
+        "text": "dijagram klasa",
+        "correct": false
+      },
+      {
+        "text": "dijagram sekvenci",
+        "correct": true
+      },
+      {
+        "text": "dijagram aktivnosti",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "U recniku podataka  / /  je oznaka za:",
+    "options": [
+      {
+        "text": "neekskluzivnu specijalizaciju",
+        "correct": true
+      },
+      {
+        "text": "skup",
+        "correct": false
+      },
+      {
+        "text": "agregaciju",
+        "correct": false
+      },
+      {
+        "text": "ekskluzivnu specijalizaciju",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Operacija mapiranja u QVT moze biti:",
+    "options": [
+      {
+        "text": "iskljucivo dvosmerna",
+        "correct": false
+      },
+      {
+        "text": "iskljucivo jednosmerna",
+        "correct": true
+      },
+      {
+        "text": "jednosmerna ili dvosmerna",
+        "correct": false
+      },
+      {
+        "text": "nista od navedenog",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "U SSA interfejs:",
+    "options": [
+      {
+        "text": "mora imati samo jedan ulazni tok",
+        "correct": false
+      },
+      {
+        "text": "mora imati samo jedan izlazni tok",
+        "correct": false
+      },
+      {
+        "text": "mora imati bar jedan ulazni ili bar jedan izlazni tok",
+        "correct": true
+      },
+      {
+        "text": "ne mora imati ni ulazni ni izlazni tok",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Obavezna i ekskluzivna specijalizacija na PMOV odredjena je:",
+    "options": [
+      {
+        "text": "1,1",
+        "correct": true
+      },
+      {
+        "text": "0,M",
+        "correct": false
+      },
+      {
+        "text": "0,1",
+        "correct": false
+      },
+      {
+        "text": "1,M",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Model za opis strukture sistema je:",
+    "options": [
+      {
+        "text": "DTP strukturne sistemske analize",
+        "correct": false
+      },
+      {
+        "text": "dijagram klasa",
+        "correct": true
+      },
+      {
+        "text": "dijagram promene stanja",
+        "correct": false
+      },
+      {
+        "text": "dijagram slucajeva koriscenja",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Simbol         na dijagramu prelaza stanja oznacava:",
+    "options": [
+      {
+        "text": "krajnje stanje",
+        "correct": true
+      },
+      {
+        "text": "pocetni dogadjaj",
+        "correct": false
+      },
+      {
+        "text": "krajnji dogadjaj",
+        "correct": false
+      },
+      {
+        "text": "pocetno stanje",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Aggregation je u UML dijagramu klasa:",
+    "options": [
+      {
+        "text": "vrsta klase",
+        "correct": false
+      },
+      {
+        "text": "vrsta veze",
+        "correct": true
+      },
+      {
+        "text": "objekat",
+        "correct": false
+      },
+      {
+        "text": "ne postoji u konceptualnom dijagramu klasa",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Modifikacija softvera radi postizanja odrzivosti:",
+    "options": [
+      {
+        "text": "perfektivno odrzavanje",
+        "correct": true
+      },
+      {
+        "text": "korektivno odrzavanje",
+        "correct": false
+      },
+      {
+        "text": "adaptivno odrzavanje",
+        "correct": false
+      },
+      {
+        "text": "nista od navedenog",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Sta se u OCL oznacava sa Sequence(T):",
+    "options": [
+      {
+        "text": "uredjena kolekcija, dozvoljeni duplikati",
+        "correct": true
+      },
+      {
+        "text": "neuredjena kolekcija, nisu dozvoljeni duplikati (Set(T))",
+        "correct": false
+      },
+      {
+        "text": "uredjena kolekcija, nisu dozvoljeni duplikati  (OrderedSet(T))",
+        "correct": false
+      },
+      {
+        "text": "neuredjena kolekcija, dozvoljeni duplikati (Bag(T))",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "UML 2.0 dijagram za opis interakcije koji prikazije vremenski redosled poruka je:",
+    "options": [
+      {
+        "text": "dijagram razmestaja komponenti",
+        "correct": false
+      },
+      {
+        "text": "dijagram komponenti",
+        "correct": false
+      },
+      {
+        "text": "dijagram sekvenci",
+        "correct": true
+      },
+      {
+        "text": "dijagram klasa",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "U UML se pored generalizacije i realizacije definisu i sledeci tipovi veza:",
+    "options": [
+      {
+        "text": "agregacija i veza zavisnosti",
+        "correct": false
+      },
+      {
+        "text": "asocijacija i kompozicija",
+        "correct": false
+      },
+      {
+        "text": "agregacija i kompozicija",
+        "correct": false
+      },
+      {
+        "text": "asocijacija i veza zavisnosti",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Sta od navedenog nije karakteristika agilnog razvoja softvera:",
+    "options": [
+      {
+        "text": "adaptivno planiranje",
+        "correct": false
+      },
+      {
+        "text": "tim sam bira nacin realizacije zadataka",
+        "correct": false
+      },
+      {
+        "text": "evolutivni razvoj i isporuka",
+        "correct": false
+      },
+      {
+        "text": "dugorocno planiranje",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "U cetvoronivojskoj hijerarhiji, model sistema se nalazi na nivou:",
+    "options": [
+      {
+        "text": "M()",
+        "correct": false
+      },
+      {
+        "text": "M1",
+        "correct": true
+      },
+      {
+        "text": "M2 (ovde je meta model)",
+        "correct": false
+      },
+      {
+        "text": "M3",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Graficki simbol    <>----- na UML dijagramu klasa oznacava:",
+    "options": [
+      {
+        "text": "association vezu",
+        "correct": false
+      },
+      {
+        "text": "composition vezu",
+        "correct": true
+      },
+      {
+        "text": "aggregation vezu",
+        "correct": false
+      },
+      {
+        "text": "nista od navedenog",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Sta se od navedenog koristi za definisanje OCL ogranicenja koje treba da bude zadovoljeno tokom celokupnog zivotnog ciklusa objekta:",
+    "options": [
+      {
+        "text": "invariant",
+        "correct": true
+      },
+      {
+        "text": "context",
+        "correct": false
+      },
+      {
+        "text": "precondition",
+        "correct": false
+      },
+      {
+        "text": "postcondition",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Sta ne spada u nacine dekomponovanja dijagrama prelaza stanja:",
+    "options": [
+      {
+        "text": "kompozitno stanje (sekvencijalna podstanja)",
+        "correct": false
+      },
+      {
+        "text": "generalizacija stanja",
+        "correct": false
+      },
+      {
+        "text": "agregacija stanja",
+        "correct": false
+      },
+      {
+        "text": "nivelacija stanja",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "U recniku podataka <> je oznaka za:",
+    "options": [
+      {
+        "text": "agregaciju",
+        "correct": true
+      },
+      {
+        "text": "skup",
+        "correct": false
+      },
+      {
+        "text": "neekskluzivnu specijalizaciju",
+        "correct": false
+      },
+      {
+        "text": "ekskluzivnu specijalizaciju",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Modifikacija softverskog proizvoda radi popravke otkrivenih gresaka naziva se:",
+    "options": [
+      {
+        "text": "korektivno odrzavanje",
+        "correct": true
+      },
+      {
+        "text": "adaptivno odrzavanje",
+        "correct": false
+      },
+      {
+        "text": "perfektivno odrzavanje",
+        "correct": false
+      },
+      {
+        "text": "nista od navedenog",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Kojom ulogom ko Scrum metode se predstavljaju zainteresovane strane ili poslovanje:",
+    "options": [
+      {
+        "text": "team",
+        "correct": false
+      },
+      {
+        "text": "product owner",
+        "correct": true
+      },
+      {
+        "text": "scrum master",
+        "correct": false
+      },
+      {
+        "text": "nista od navedenog",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "U SSA process se moze direktno povezai tokom podataka sa:",
+    "options": [
+      {
+        "text": "interfejsom",
+        "correct": false
+      },
+      {
+        "text": "skladistem",
+        "correct": false
+      },
+      {
+        "text": "drugim procesom",
+        "correct": false
+      },
+      {
+        "text": "sve navedeno",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Po UML standard simbol                   :",
+    "options": [
+      {
+        "text": "oznacava nekompletnu kategoriju",
+        "correct": false
+      },
+      {
+        "text": "oznacava ili kompletnu ili nekompletnu kategoriju, zavisno od kardinalnosti",
+        "correct": false
+      },
+      {
+        "text": "oznacava kompletnu kategoriju",
+        "correct": false
+      },
+      {
+        "text": "nije podrzan (samo u idef1x)",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "U SSA process:",
+    "options": [
+      {
+        "text": "mora imati samo jedan ulazni tok",
+        "correct": false
+      },
+      {
+        "text": "mora imati samo jedan izlazni tok",
+        "correct": false
+      },
+      {
+        "text": "mora imati bar jedan izlazni i bar jedan ulazni tok",
+        "correct": true
+      },
+      {
+        "text": "ne mora imati ni ulazni ni izlazni tok",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Graficki simbol dva pravougaonika jedan u drugom u SSA se koristi za prikaz:",
+    "options": [
+      {
+        "text": "slabog objekta (na PMOV)",
+        "correct": false
+      },
+      {
+        "text": "interfejsa",
+        "correct": false
+      },
+      {
+        "text": "specijalizacija",
+        "correct": false
+      },
+      {
+        "text": "ne koristi se",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "U zavisnosti od vrednosti gornje kardinalnosti, specijalizacija i generalizacija moze biti:",
+    "options": [
+      {
+        "text": "obavezna i neobavezna",
+        "correct": false
+      },
+      {
+        "text": "ekskluzivna i neekskluzivna",
+        "correct": true
+      },
+      {
+        "text": "nadredjena i progredient",
+        "correct": false
+      },
+      {
+        "text": "primarna i sekundarna",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "U recniku podataka {} je oznaka za:",
+    "options": [
+      {
+        "text": "skup",
+        "correct": true
+      },
+      {
+        "text": "agregaciju",
+        "correct": false
+      },
+      {
+        "text": "neekskluzivnu specijalizaciju",
+        "correct": false
+      },
+      {
+        "text": "ekskluzivnu specijalizaciju",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "UML 2.0 dijagram koji se koristi za staticki opis implementacije sistema je:",
+    "options": [
+      {
+        "text": "dijagram sekvenci",
+        "correct": false
+      },
+      {
+        "text": "dijagram aktivnosti",
+        "correct": false
+      },
+      {
+        "text": "dijagram komponenti",
+        "correct": true
+      },
+      {
+        "text": "dijagram komunikacije",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "U SSA dozvoljeno je da tok podataka direktno povezuje:",
+    "options": [
+      {
+        "text": "dva procesa",
+        "correct": true
+      },
+      {
+        "text": "dva interfejsa",
+        "correct": false
+      },
+      {
+        "text": "interfejs i skladiste",
+        "correct": false
+      },
+      {
+        "text": "dva skladista",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "U UML 2.0 direktno instanciranje interfejsa:",
+    "options": [
+      {
+        "text": "je moguce ako se instancira jedan objekat",
+        "correct": false
+      },
+      {
+        "text": "je moguce ako je nasledio bar jedan drugi interfejs",
+        "correct": false
+      },
+      {
+        "text": "je moguce ako je interfejs nasledio aprstraktnu klasu",
+        "correct": false
+      },
+      {
+        "text": "nije moguce",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Sta se u OCL oznacava sa Set(T):",
+    "options": [
+      {
+        "text": "neuredjena kolekcija, nisu dozvoljeni duplikati",
+        "correct": true
+      },
+      {
+        "text": "uredjena kolekcija, nisu dozvoljeni duplikati",
+        "correct": false
+      },
+      {
+        "text": "neuredjena kolekcija, dozvoljeni duplikati",
+        "correct": false
+      },
+      {
+        "text": "uredjena kolekcija, dozvoljeni duplikati",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Composition part of se u UML dijagramu klasa koristi za opis:",
+    "options": [
+      {
+        "text": "metaklase",
+        "correct": false
+      },
+      {
+        "text": "jake posesivnosti",
+        "correct": true
+      },
+      {
+        "text": "skupa klasa",
+        "correct": false
+      },
+      {
+        "text": "skupa veza",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Sprint je osnovna jedinica u procesu razvoja primenom:",
+    "options": [
+      {
+        "text": "FDD metode",
+        "correct": false
+      },
+      {
+        "text": "Scrum metode",
+        "correct": true
+      },
+      {
+        "text": "XP metode",
+        "correct": false
+      },
+      {
+        "text": "RUP metode",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Neobavezna i ekskluzivna specijalizacija na PMOV je:",
+    "options": [
+      {
+        "text": "1,1",
+        "correct": false
+      },
+      {
+        "text": "0,M",
+        "correct": false
+      },
+      {
+        "text": "0,1",
+        "correct": true
+      },
+      {
+        "text": "1,M",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "U SSA dijagram toka podataka najviseg nivoa apstrakcije se naziva:",
+    "options": [
+      {
+        "text": "dijagram konteksta",
+        "correct": true
+      },
+      {
+        "text": "dijagram primitivnih procesa",
+        "correct": false
+      },
+      {
+        "text": "dijagram toka podataka 1. nivoa",
+        "correct": false
+      },
+      {
+        "text": "dijagram toka podataka 2. nivoa",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Jedan slucaj koriscenja predstavlja skup. Jedna sekvenca dogadjaja se naziva:",
+    "options": [
+      {
+        "text": "recnik podataka",
+        "correct": false
+      },
+      {
+        "text": "tok podataka",
+        "correct": false
+      },
+      {
+        "text": "scenario",
+        "correct": true
+      },
+      {
+        "text": "process",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Stereotip u UML dijagramu klasa kojim se oznacava da su instance klase takodje klase:",
+    "options": [
+      {
+        "text": "<<metaclass>>",
+        "correct": true
+      },
+      {
+        "text": "<<interface>>",
+        "correct": false
+      },
+      {
+        "text": "<<enumeration>>",
+        "correct": false
+      },
+      {
+        "text": "<<implementationClass>>",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "“Interna tranzicija” u UML dijagramu promene stanja predstavlja:",
+    "options": [
+      {
+        "text": "akcija koja se obavlja pri ulazu u stanje",
+        "correct": false
+      },
+      {
+        "text": "akcija koja se obavlja pri napustanju stanja",
+        "correct": false
+      },
+      {
+        "text": "akcija koja ne menja stanje sistema",
+        "correct": true
+      },
+      {
+        "text": "akcija koja menja stanje sistema",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Definicija <a,b,[c]>  u recniku oznacava da:",
+    "options": [
+      {
+        "text": "c moze imati jedno ili vise pojavljivanja",
+        "correct": false
+      },
+      {
+        "text": "c ima tacno jedno pojavljivanje",
+        "correct": false
+      },
+      {
+        "text": "c moze imati jedno ili nijedno pojavljivanje",
+        "correct": true
+      },
+      {
+        "text": "nista od ponudjenog",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Sprint kod Scrum agilne metode traje:",
+    "options": [
+      {
+        "text": "od 1 do 5 dana",
+        "correct": false
+      },
+      {
+        "text": "od 1 nedelje do mesec dana",
+        "correct": true
+      },
+      {
+        "text": "od 3 do 6 meseci",
+        "correct": false
+      },
+      {
+        "text": "od 6 do 18 meseci",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "U SSA @pre klauzula moze da se koristi:",
+    "options": [
+      {
+        "text": "u svim vrstama OCL ogranicenja",
+        "correct": false
+      },
+      {
+        "text": "iskljucivo u invariant ogranicenjima",
+        "correct": false
+      },
+      {
+        "text": "iskljucivo u precondition ogranicenju",
+        "correct": false
+      },
+      {
+        "text": "iskljucivo u postcondition ogranicenjima",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "IDEF1X je standard koji se koristi za kreiranje:",
+    "options": [
+      {
+        "text": "relacionog modela",
+        "correct": false
+      },
+      {
+        "text": "modela podataka",
+        "correct": true
+      },
+      {
+        "text": "modela procesa",
+        "correct": false
+      },
+      {
+        "text": "modela zavisnosti izmedju polja istog dokumenta",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Izvedene vrednosti u UML 2.5 dijagramu klasa:",
+    "options": [
+      {
+        "text": "obelezavaju se simbolom #",
+        "correct": false
+      },
+      {
+        "text": "oznacavaju se italic stilom",
+        "correct": false
+      },
+      {
+        "text": "podvlace se",
+        "correct": false
+      },
+      {
+        "text": "nista od navedenog",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Na UML 2.5 dijagramu komunikacije poruka “ 5: *[uslov is not null] poruka5()” na dijagramu sekvenci bi pripadala:",
+    "options": [
+      {
+        "text": "alt bloku []",
+        "correct": false
+      },
+      {
+        "text": "loop *[]",
+        "correct": false
+      },
+      {
+        "text": "bilo alt ili loop",
+        "correct": false
+      },
+      {
+        "text": "i alt i loop *[][]",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Kod generalizacije, slucaj kada instance neke od poklasa ne moze biti ujedno i instance neke druge podklase predstavlja se vrednoscu:",
+    "options": [
+      {
+        "text": "complete (svaka instance nadklase mora biti ujedno i instance bar jedne podklase)",
+        "correct": false
+      },
+      {
+        "text": "overlapping () (instanca neke od podklasa može biti ujedno i instanca neke druge podklase)",
+        "correct": false
+      },
+      {
+        "text": "incomplete (instance nadklase ne mora biti ujedno i instance jedne od podklasa)",
+        "correct": false
+      },
+      {
+        "text": "disjoint",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "UML 2.5 dijagram za opis funkcija sistema:",
+    "options": [
+      {
+        "text": "dijagram aktivnosti",
+        "correct": false
+      },
+      {
+        "text": "kolaboracije",
+        "correct": false
+      },
+      {
+        "text": "slucajeva koriscenja",
+        "correct": true
+      },
+      {
+        "text": "sekvenci",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "UML profili se koriste za:",
+    "options": [
+      {
+        "text": "prevodjenje jednog meta modela u drugi",
+        "correct": false
+      },
+      {
+        "text": "prilagodjavanje meta modela konkretnim platformama",
+        "correct": true
+      },
+      {
+        "text": "prilagodjavanje jedne platforme drugoj",
+        "correct": false
+      },
+      {
+        "text": "prevodjenje dijagrama sekveci u dijagram komunikacije",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "U recniku podataka [] je oznaka za:",
+    "options": [
+      {
+        "text": "agregaciju",
+        "correct": false
+      },
+      {
+        "text": "skup",
+        "correct": false
+      },
+      {
+        "text": "neekskluzivnu spec",
+        "correct": false
+      },
+      {
+        "text": "ekskluzivnu spec",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Koji standard omogucava preslikavanje MOF modela u Javu u cilju odrzavanja MOF metabaza:",
+    "options": [
+      {
+        "text": "XMI",
+        "correct": false
+      },
+      {
+        "text": "JMI",
+        "correct": true
+      },
+      {
+        "text": "EMOF",
+        "correct": false
+      },
+      {
+        "text": "CWM",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Graficki simbol pravougaonika u SSA koristimo za:",
+    "options": [
+      {
+        "text": "skladista",
+        "correct": false
+      },
+      {
+        "text": "procesa",
+        "correct": false
+      },
+      {
+        "text": "interfejsa",
+        "correct": true
+      },
+      {
+        "text": "toka podataka",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Graficki simbol romba na PMOV  je:",
+    "options": [
+      {
+        "text": "jak objekat",
+        "correct": false
+      },
+      {
+        "text": "kardinalnost",
+        "correct": false
+      },
+      {
+        "text": "agregacija",
+        "correct": false
+      },
+      {
+        "text": "veza",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Za opisivanje dinamike slucaja koriscenja koriste se UML :",
+    "options": [
+      {
+        "text": "konceptualni dijagram klasa",
+        "correct": false
+      },
+      {
+        "text": "konacni dijagram klasa",
+        "correct": false
+      },
+      {
+        "text": "objektni dijagram",
+        "correct": false
+      },
+      {
+        "text": "dijagram sekvenci",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Za kreiranje konceptualnog modela koristi se UML dijagram:",
+    "options": [
+      {
+        "text": "klasa",
+        "correct": true
+      },
+      {
+        "text": "sekvenci",
+        "correct": false
+      },
+      {
+        "text": "prelaza stanja",
+        "correct": false
+      },
+      {
+        "text": "komunikacije",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "PMOV sluzi za kreiranje:",
+    "options": [
+      {
+        "text": "modela procesa",
+        "correct": false
+      },
+      {
+        "text": "modela podataka",
+        "correct": true
+      },
+      {
+        "text": "modela zavisnosti izmedju polja istog dokumenta",
+        "correct": false
+      },
+      {
+        "text": "modela zavisnosti izmedju polja razlicitih dokumenata",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "U UML 2.0 postoji generalizacija:",
+    "options": [
+      {
+        "text": "samo aktera",
+        "correct": false
+      },
+      {
+        "text": "samo slucajeva koriscenja",
+        "correct": false
+      },
+      {
+        "text": "i aktera i slucajeva koriscenja",
+        "correct": true
+      },
+      {
+        "text": "ni aktera ni slucajeva koriscenja",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Izmedju dva slucaja koriscenja u UML 2.0 koriste se sledece stereotipizovane veze:",
+    "options": [
+      {
+        "text": "<<is>> i  <<has a>>",
+        "correct": false
+      },
+      {
+        "text": "<<used>> i <<not used>>",
+        "correct": false
+      },
+      {
+        "text": "<<extend>> i <<include>>",
+        "correct": true
+      },
+      {
+        "text": "<<produce>> i <<build>>",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Dijagram sekvenci prikazuje komunikaciju izmedju:",
+    "options": [
+      {
+        "text": "procesa",
+        "correct": false
+      },
+      {
+        "text": "skladista podataka",
+        "correct": false
+      },
+      {
+        "text": "objekata",
+        "correct": true
+      },
+      {
+        "text": "atributa",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Private vidljivost u UML 2.0 oznacava se:",
+    "options": [
+      {
+        "text": "–",
+        "correct": true
+      },
+      {
+        "text": "+ public",
+        "correct": false
+      },
+      {
+        "text": "~ package",
+        "correct": false
+      },
+      {
+        "text": "# protected",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Na dijagramu slucajeva koriscenja u UML 2.0 dozvoljena je direktna asocijacija izmedju:",
+    "options": [
+      {
+        "text": "dva aktera",
+        "correct": false
+      },
+      {
+        "text": "dva slucaja koriscenja",
+        "correct": false
+      },
+      {
+        "text": "aktera i slucaja koriscenja",
+        "correct": true
+      },
+      {
+        "text": "sve navedeno",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Strelica u SSA sluzi za:",
+    "options": [
+      {
+        "text": "skladista",
+        "correct": false
+      },
+      {
+        "text": "procesa",
+        "correct": false
+      },
+      {
+        "text": "interfejsa",
+        "correct": false
+      },
+      {
+        "text": "toka podataka",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Dijagrami tokova podataka u SSA sluze za kreiranje:",
+    "options": [
+      {
+        "text": "modela procesa",
+        "correct": true
+      },
+      {
+        "text": "modela podataka",
+        "correct": false
+      },
+      {
+        "text": "modela zavisnosti izmedju polja istog dokumenta",
+        "correct": false
+      },
+      {
+        "text": "modela zavisnosti izmedju polja razlicitih dokumenata",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "U UML 2.0 izmedju klase i interfejsa uspostavlja se veza:",
+    "options": [
+      {
+        "text": "<<include>>",
+        "correct": false
+      },
+      {
+        "text": "<<implementation>>",
+        "correct": true
+      },
+      {
+        "text": "nasledjivanja",
+        "correct": false
+      },
+      {
+        "text": "<<derive>>",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "U SSA funkcije koje se dalje ne dekomponuju su:",
+    "options": [
+      {
+        "text": "agregirane",
+        "correct": false
+      },
+      {
+        "text": "funkcije dijagrama konteksta",
+        "correct": false
+      },
+      {
+        "text": "nedekomponovane funkcije",
+        "correct": false
+      },
+      {
+        "text": "primitivne funkcije",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "U SSA pored tokova,  mogu se dekomponovati jos:",
+    "options": [
+      {
+        "text": "samo tokovi",
+        "correct": false
+      },
+      {
+        "text": "samo skladista",
+        "correct": false
+      },
+      {
+        "text": "i tokovi i skladista",
+        "correct": true
+      },
+      {
+        "text": "ni tokovi ni skladista",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "U UML 2.0 u dijagrame interakcije, pored dijagrama sekvenci spada i:",
+    "options": [
+      {
+        "text": "dijagram komunikacije",
+        "correct": true
+      },
+      {
+        "text": "dijagram klasa",
+        "correct": false
+      },
+      {
+        "text": "dijagram prelaza stanja",
+        "correct": false
+      },
+      {
+        "text": "dijagram aktivnosti",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "OCL se koristi za def ogranicenja:",
+    "options": [
+      {
+        "text": "iskljucivo nad dijagramom klasa",
+        "correct": false
+      },
+      {
+        "text": "nad svim UML dijagramima",
+        "correct": true
+      },
+      {
+        "text": "iskljucivo nad dijagramom sekvenci",
+        "correct": false
+      },
+      {
+        "text": "iskljucivo nad dijagramom klasa i dijagramom sekvenci",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "U UML dijagramu klasa, ukoliko ne istaknemo navigaciju podrazumeva se:",
+    "options": [
+      {
+        "text": "jednosmerna veza",
+        "correct": false
+      },
+      {
+        "text": "mora da se istakne",
+        "correct": false
+      },
+      {
+        "text": "dvosmerna veza",
+        "correct": true
+      },
+      {
+        "text": "veza od jake ka slaboj klasi",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Jedan od dijagrama interakcije je:",
+    "options": [
+      {
+        "text": "dijagram komponenti",
+        "correct": false
+      },
+      {
+        "text": "dijagram slucajeva koriscenja",
+        "correct": false
+      },
+      {
+        "text": "vremenski dijagram",
+        "correct": true
+      },
+      {
+        "text": "nista od navedenog",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Uzimajuci u obzir sledecu strukturu iz recnika podataka <a,b,/c,d,e/> koje pojavljivanje komponenti nije validno:",
+    "options": [
+      {
+        "text": "abcde",
+        "correct": false
+      },
+      {
+        "text": "abc",
+        "correct": false
+      },
+      {
+        "text": "acde",
+        "correct": true
+      },
+      {
+        "text": "abde",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Interaction overview dijagram predstavlja specijalnu vrsu:",
+    "options": [
+      {
+        "text": "UML dijagrama sekvenci",
+        "correct": false
+      },
+      {
+        "text": "UML dijagrama aktivnosti",
+        "correct": true
+      },
+      {
+        "text": "UML dijagrama klasa",
+        "correct": false
+      },
+      {
+        "text": "UML dijagrama komunikacije",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Koja veza ne postoji u dijagramu slucajeva koriscenja:",
+    "options": [
+      {
+        "text": "veza asocijacije",
+        "correct": false
+      },
+      {
+        "text": "veza zavisnosti",
+        "correct": false
+      },
+      {
+        "text": "veza agregacije",
+        "correct": true
+      },
+      {
+        "text": "veza generalizacije",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "U dijagramu sekvenci, poruke kod kojih nisu poznati ni posiljalac ni primalac su:",
+    "options": [
+      {
+        "text": "izgubljene",
+        "correct": false
+      },
+      {
+        "text": "nesnadjene",
+        "correct": false
+      },
+      {
+        "text": "pronadjene",
+        "correct": false
+      },
+      {
+        "text": "nepoznate",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Vrste specijalizacije koje postoje u IDEF1X su:",
+    "options": [
+      {
+        "text": "0,M i 1,M",
+        "correct": false
+      },
+      {
+        "text": "0,1 i 1,1",
+        "correct": false
+      },
+      {
+        "text": "1,M i 1,1",
+        "correct": false
+      },
+      {
+        "text": "ne postoji spec u IDEF1X",
+        "correct": true
+      }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Transformacija modela okjekti veze u normalizovan relacioni modela pripada kojoj fazi konvencionalnog modela “vodopad zivotni ciklus”:",
+    "options": [
+      {
+        "text": "planiranje razvoja",
+        "correct": false
+      },
+      {
+        "text": "analiza i specifikacija zahteva",
+        "correct": false
+      },
+      {
+        "text": "projektovanje",
+        "correct": true
+      },
+      {
+        "text": "implementacija",
+        "correct": false
+      }
+    ],
+    "explanation": ""
+  }
+]
