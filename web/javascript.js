@@ -512,31 +512,59 @@ function nextQuestion(){ if (currentIdx < ORDER.length - 1) { currentIdx++; rend
 function prevQuestion(){ if (currentIdx > 0) { currentIdx--; renderAllForMove(); } }
 
 function toggleRandomMode() {
-  randomMode = !randomMode;
-  if (randomMode) {
-    randomizeOrder();
-    randomModeBtn.className = "btn random-mode-btn active";
-    randomModeBtn.innerHTML = '<i class="fas fa-random"></i> Nasumična pitanja: Uključeno';
-  } else {
-    ORDER = [];
-    for (var i=0; i<QUESTIONS.length; i++) ORDER.push(i);
-    currentIdx = 0;
-    randomModeBtn.className = "btn random-mode-btn";
-    randomModeBtn.innerHTML = '<i class="fas fa-random"></i> Nasumična pitanja: Isključeno';
-  }
-  renderNavGrid();
-  renderAllForMove();
+    randomMode = !randomMode;
+
+    if (randomMode) {
+        // Sačuvaj trenutno odgovarano stanje
+        var answeredCopy = Object.assign({}, answered);
+
+        // Randomizuj ORDER
+        randomizeOrder();
+
+        // Održi tačne/netačne vizuelno
+        answered = answeredCopy;
+
+        randomModeBtn.className = "btn random-mode-btn active";
+        randomModeBtn.innerHTML = '<i class="fas fa-random"></i> Nasumična pitanja: Uključeno';
+    } else {
+        // Vrati originalni redosled
+        ORDER = [];
+        for (var i = 0; i < QUESTIONS.length; i++) ORDER.push(i);
+
+        // currentIdx treba da pokazuje na isto pitanje kao pre random
+        // Pronađi indeks u originalnom ORDER
+        for (var j = 0; j < ORDER.length; j++) {
+            if (ORDER[j] === ORDER[currentIdx]) {
+                currentIdx = j;
+                break;
+            }
+        }
+
+        randomModeBtn.className = "btn random-mode-btn";
+        randomModeBtn.innerHTML = '<i class="fas fa-random"></i> Nasumična pitanja: Isključeno';
+    }
+
+    // Renderuj sve vizuelne elemente
+    renderNavGrid();
+    renderAllForMove();
 }
 
 function randomizeOrder() {
-  ORDER = [];
-  for (var i=0; i<QUESTIONS.length; i++) ORDER.push(i);
-  for (var j=ORDER.length - 1; j>0; j--) {
-    var r = Math.floor(Math.random() * (j + 1));
-    var tmp = ORDER[j]; ORDER[j] = ORDER[r]; ORDER[r] = tmp;
-  }
-  currentIdx = 0;
+    ORDER = [];
+    for (var i = 0; i < QUESTIONS.length; i++) ORDER.push(i);
+
+    // Fisher-Yates shuffle
+    for (var j = ORDER.length - 1; j > 0; j--) {
+        var r = Math.floor(Math.random() * (j + 1));
+        var tmp = ORDER[j];
+        ORDER[j] = ORDER[r];
+        ORDER[r] = tmp;
+    }
+
+    // Ako već postoje odgovori, currentIdx neka ostane na prvom random pitanju
+    currentIdx = 0;
 }
+
 
 /* ---------- Stats/Progress ---------- */
 function renderStats() {
@@ -594,4 +622,5 @@ if (backToFilesBtn) backToFilesBtn.onclick = function(){
 
 /* ---------- Init ---------- */
 document.addEventListener("DOMContentLoaded", function(){ loadFileList(); });
+
 
