@@ -40,11 +40,11 @@
     "options": [
       {
         "text": "Tačno",
-        "correct": true
+        "correct": false
       },
       {
         "text": "Netačno",
-        "correct": false
+        "correct": true
       }
     ],
     "explanation": ""
@@ -1610,12 +1610,8 @@
     "explanation": ""
   },
   {
-    "question": "Pre nego što stranica 802.11 pošalje okvir podataka, ona mora prvo da pošalje RTS okvir i primi",
+    "question": "Pre nego što stranica 802.11 pošalje okvir podataka, ona mora prvo da pošalje RTS okvir i primi TS okvir ?",
     "options": [
-      {
-        "text": "TS okvir ?",
-        "correct": false
-      },
       {
         "text": "tačno",
         "correct": false
@@ -2730,11 +2726,11 @@
     "options": [
       {
         "text": "tačno",
-        "correct": true
+        "correct": false
       },
       {
         "text": "netačno",
-        "correct": false
+        "correct": true
       }
     ],
     "explanation": ""
@@ -3640,7 +3636,7 @@
       },
       {
         "text": "Kontrola zaglušenja nastoji da spreči da pošiljalac preplavi privremenu memoriju primaoca, a kontrola toka otklanja usporenja.",
-        "correct": true
+        "correct": false
       },
       {
         "text": "I kontrola toka i kontrola zaglušenja se obavljaju na linku",
@@ -3648,7 +3644,7 @@
       },
       {
         "text": "Kontrola toka se obavlja sa kraja na kraj, a kontrola zagušenja se obavlja na linku.",
-        "correct": false
+        "correct": true
       }
     ],
     "explanation": ""
@@ -3742,11 +3738,11 @@
     "options": [
       {
         "text": "L = 2^32",
-        "correct": false
+        "correct": true
       },
       {
         "text": "L = (2^32)/1460",
-        "correct": true
+        "correct": false
       },
       {
         "text": "L = 2^32 + ((2^32)/1460)*TCPZaglavlje(66 B)",
@@ -3814,11 +3810,11 @@
     "options": [
       {
         "text": "Kontrola toka se obavlja sa kraja na kraj, a kontrola zaglušenja se obavlja na linku.",
-        "correct": false
+        "correct": true
       },
       {
         "text": "Kontrola zaglušenja nastoji da spreci da pošiljalac preplavi privremenu memoriju primaoca, a kontrola toka otklanja usporenja.",
-        "correct": true
+        "correct": false
       },
       {
         "text": "I kontrola toka i kontrola zaglušenja se obavljaju na linku",
@@ -4533,6 +4529,26 @@
       { "text": "Iskljucivo protokok video zapisa izmedju ravno...", "correct": false },
       { "text": "Iskljucivo namenske CDN servere...", "correct": false },
       { "text": "Kombinaciju namenskih CDN servera i protokola...", "correct": true }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Servis koji obezbedjuje translaciju kanonickog imena domena u IP adresu je:",
+    "options": [
+      { "text": "DMS", "correct": false },
+      { "text": "MAC", "correct": false },
+      { "text": "DNS", "correct": true },
+      { "text": "FQDN", "correct": false }
+    ],
+    "explanation": ""
+  },
+  {
+    "question": "Za K=10 kod CSMA/CD koliko dugo adapter ceka do vracanja za postupak 2 za Ethernet od 10Mb/s?",
+    "options": [
+      { "text": "512ms", "correct": false },
+      { "text": "51.2ms", "correct": false },
+      { "text": "5.12ms", "correct": false },
+      { "text": "0.512ms", "correct": true }
     ],
     "explanation": ""
   }
