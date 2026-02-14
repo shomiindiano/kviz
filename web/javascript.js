@@ -515,27 +515,37 @@ function toggleRandomMode() {
     randomMode = !randomMode;
 
     if (randomMode) {
-        // Sačuvaj trenutno odgovarano stanje
+        // Sačuvaj trenutno pitanje
+        var currentQ = ORDER[currentIdx];
+        // Sačuvaj već odgovarane odgovore
         var answeredCopy = Object.assign({}, answered);
 
         // Randomizuj ORDER
         randomizeOrder();
 
-        // Održi tačne/netačne vizuelno
+        // Postavi currentIdx tako da pokazuje na isto trenutno pitanje
+        for (var i = 0; i < ORDER.length; i++) {
+            if (ORDER[i] === currentQ) {
+                currentIdx = i;
+                break;
+            }
+        }
+
+        // Vrati answered stanje
         answered = answeredCopy;
 
         randomModeBtn.className = "btn random-mode-btn active";
         randomModeBtn.innerHTML = '<i class="fas fa-random"></i> Nasumična pitanja: Uključeno';
     } else {
-        // Vrati originalni redosled
+        // Isključi random, vrati originalni redosled
+        var currentQ = ORDER[currentIdx];
         ORDER = [];
         for (var i = 0; i < QUESTIONS.length; i++) ORDER.push(i);
 
-        // currentIdx treba da pokazuje na isto pitanje kao pre random
-        // Pronađi indeks u originalnom ORDER
-        for (var j = 0; j < ORDER.length; j++) {
-            if (ORDER[j] === ORDER[currentIdx]) {
-                currentIdx = j;
+        // Pronađi gde je trenutno pitanje u originalnom ORDER
+        for (var i = 0; i < ORDER.length; i++) {
+            if (ORDER[i] === currentQ) {
+                currentIdx = i;
                 break;
             }
         }
@@ -549,20 +559,17 @@ function toggleRandomMode() {
     renderAllForMove();
 }
 
+// Fisher-Yates shuffle
 function randomizeOrder() {
     ORDER = [];
     for (var i = 0; i < QUESTIONS.length; i++) ORDER.push(i);
 
-    // Fisher-Yates shuffle
     for (var j = ORDER.length - 1; j > 0; j--) {
         var r = Math.floor(Math.random() * (j + 1));
         var tmp = ORDER[j];
         ORDER[j] = ORDER[r];
         ORDER[r] = tmp;
     }
-
-    // Ako već postoje odgovori, currentIdx neka ostane na prvom random pitanju
-    currentIdx = 0;
 }
 
 
@@ -622,5 +629,6 @@ if (backToFilesBtn) backToFilesBtn.onclick = function(){
 
 /* ---------- Init ---------- */
 document.addEventListener("DOMContentLoaded", function(){ loadFileList(); });
+
 
 
