@@ -200,12 +200,57 @@ function loadFileList() {
 }
 
 function deleteFile(name) {
-  if (!confirm('Obrisati fajl "' + name + '"?')) return;
-  xhrJSON("DELETE", ENDPOINTS.DELETE(name), null, null, function(err){
-    if (err) return alert("Brisanje nije uspelo: " + err.message);
-    loadFileList();
-  });
+
+  // Kreiranje popup overlay-a
+  var overlay = document.createElement("div");
+  overlay.style.position = "fixed";
+  overlay.style.top = "0";
+  overlay.style.left = "0";
+  overlay.style.width = "100%";
+  overlay.style.height = "100%";
+  overlay.style.backgroundColor = "rgba(0,0,0,0.6)";
+  overlay.style.display = "flex";
+  overlay.style.alignItems = "center";
+  overlay.style.justifyContent = "center";
+  overlay.style.zIndex = "9999";
+
+  // Popup box
+  var popup = document.createElement("div");
+  popup.style.background = "#fff";
+  popup.style.padding = "30px";
+  popup.style.borderRadius = "8px";
+  popup.style.textAlign = "center";
+  popup.style.maxWidth = "400px";
+  popup.style.boxShadow = "0 10px 25px rgba(0,0,0,0.3)";
+
+  var message = document.createElement("div");
+  message.style.marginBottom = "20px";
+  message.style.fontSize = "16px";
+  message.style.color = "#333";
+  message.textContent = "Pre brisanja fajla molimo Vas da POPUSITE KURCINU";
+
+  var okBtn = document.createElement("button");
+  okBtn.textContent = "OK";
+  okBtn.style.padding = "8px 20px";
+  okBtn.style.border = "none";
+  okBtn.style.background = "#3498db";
+  okBtn.style.color = "#fff";
+  okBtn.style.borderRadius = "4px";
+  okBtn.style.cursor = "pointer";
+
+  okBtn.onclick = function() {
+    document.body.removeChild(overlay);
+  };
+
+  popup.appendChild(message);
+  popup.appendChild(okBtn);
+  overlay.appendChild(popup);
+  document.body.appendChild(overlay);
+
+  // VAŽNO:
+  // NEMA više DELETE zahteva
 }
+
 
 /* ---------- Upload ---------- */
 if (uploadInput) {
@@ -649,6 +694,7 @@ if (backToFilesBtn) backToFilesBtn.onclick = function(){
 
 /* ---------- Init ---------- */
 document.addEventListener("DOMContentLoaded", function(){ loadFileList(); });
+
 
 
 
