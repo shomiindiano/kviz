@@ -1,0 +1,1039 @@
+[
+  {
+    "question": "UML je grafički jezik za:",
+    "options": [
+      { "text": "Programiranje informacionih sistema", "correct": false },
+      { "text": "Specifikaciju, vizuelizaciju, projektovanje i dokumentovanje IS", "correct": true },
+      { "text": "Testiranje softvera", "correct": false }
+    ],
+    "explanation": "UML služi za specifikaciju, vizuelizaciju, projektovanje i dokumentovanje."
+  },
+  {
+    "question": "Ko definiše UML standard?",
+    "options": [
+      { "text": "IEEE", "correct": false },
+      { "text": "OMG (Object Management Group)", "correct": true },
+      { "text": "ISO", "correct": false }
+    ],
+    "explanation": "UML standard je definisan od strane OMG."
+  },
+  {
+    "question": "Koliko aspekata modela postoji u UML-u?",
+    "options": [
+      { "text": "3", "correct": false },
+      { "text": "5", "correct": true },
+      { "text": "7", "correct": false }
+    ],
+    "explanation": "Aspekti: projektovanja, implementacije, slučajeva korišćenja, procesa, razmeštanja."
+  },
+  {
+    "question": "Dijagram sekvenci i dijagram komunikacije su podtipovi dijagrama interakcije.",
+    "options": [
+      { "text": "Tačno", "correct": true },
+      { "text": "Netačno", "correct": false }
+    ],
+    "explanation": "Oba spadaju u dijagrame interakcije i mogu se automatski konvertovati jedan u drugi."
+  },
+  {
+    "question": "Statički opis aspekta projektovanja daje se preko:",
+    "options": [
+      { "text": "Dijagrama aktivnosti i dijagrama stanja", "correct": false },
+      { "text": "Dijagrama klasa i dijagrama objekata", "correct": true },
+      { "text": "Dijagrama komponenti i dijagrama razmeštaja", "correct": false }
+    ],
+    "explanation": "Dijagram klasa i dijagram objekata opisuju statiku aspekta projektovanja."
+  },
+  {
+    "question": "Trenutna verzija UML-a je:",
+    "options": [
+      { "text": "2.0", "correct": false },
+      { "text": "2.5.1", "correct": true },
+      { "text": "3.0", "correct": false }
+    ],
+    "explanation": "Trenutna verzija UML standarda je 2.5.1."
+  },
+  {
+    "question": "Dijagram klasa spada u dijagrame za opis ponašanja.",
+    "options": [
+      { "text": "Tačno", "correct": false },
+      { "text": "Netačno", "correct": true }
+    ],
+    "explanation": "Dijagram klasa spada u dijagrame za opis strukture."
+  },
+  {
+    "question": "Oznaka vidljivosti za protected je:",
+    "options": [
+      { "text": "+", "correct": false },
+      { "text": "#", "correct": true },
+      { "text": "~", "correct": false }
+    ],
+    "explanation": "+ = public, - = private, # = protected, ~ = package."
+  },
+  {
+    "question": "Agregacija se grafički označava:",
+    "options": [
+      { "text": "Popunjenim rombom", "correct": false },
+      { "text": "Praznim rombom", "correct": true },
+      { "text": "Praznom trouglastom strelicom", "correct": false }
+    ],
+    "explanation": "Prazan romb = agregacija (slaba posesivnost). Popunjen romb = kompozicija."
+  },
+  {
+    "question": "Kod kompozicije, deca:",
+    "options": [
+      { "text": "Mogu postojati nezavisno od roditelja", "correct": false },
+      { "text": "Ne mogu postojati bez roditelja", "correct": true },
+      { "text": "Nemaju nikakvu vezu sa roditeljima", "correct": false }
+    ],
+    "explanation": "Kompozicija = jaka posesivnost; deca ne mogu postojati bez roditelja."
+  },
+  {
+    "question": "Kod agregacije deca mogu postojati nezavisno od roditelja.",
+    "options": [
+      { "text": "Tačno", "correct": true },
+      { "text": "Netačno", "correct": false }
+    ],
+    "explanation": "Agregacija = slaba posesivnost, deca mogu postojati i bez roditelja."
+  },
+  {
+    "question": "Kardinalnost 0..1 znači:",
+    "options": [
+      { "text": "Tačno jedan", "correct": false },
+      { "text": "Nula ili jedan (opciono)", "correct": true },
+      { "text": "Jedan ili više", "correct": false }
+    ],
+    "explanation": "0..1 znači opciono — nula ili jedan."
+  },
+  {
+    "question": "GeneralizationSet sa {complete, disjoint} znači:",
+    "options": [
+      { "text": "Instanca nadklase ne mora biti podklasa i može biti više podklasa", "correct": false },
+      { "text": "Svaka instanca nadklase mora biti bar jedna podklasa i ne može biti više podklasa istovremeno", "correct": true },
+      { "text": "Instanca nadklase ne mora biti podklasa i ne može biti više podklasa", "correct": false }
+    ],
+    "explanation": "complete = svaka instanca nadklase MORA biti podklasa, disjoint = NE MOŽE biti više podklasa istovremeno."
+  },
+  {
+    "question": "Podrazumevane vrednosti za GeneralizationSet (ako se ne navedu) su:",
+    "options": [
+      { "text": "{complete, disjoint}", "correct": false },
+      { "text": "{incomplete, overlapping}", "correct": true },
+      { "text": "{complete, overlapping}", "correct": false }
+    ],
+    "explanation": "Podrazumevane vrednosti su {incomplete, overlapping}."
+  },
+  {
+    "question": "Realization veza je:",
+    "options": [
+      { "text": "Specijalna vrsta Abstraction zavisnosti", "correct": true },
+      { "text": "Podvrsta asocijacije", "correct": false },
+      { "text": "Oblik agregacije", "correct": false }
+    ],
+    "explanation": "Realization je specijalna vrsta Abstraction veze zavisnosti — implementacija specifikacije."
+  },
+  {
+    "question": "Apstraktna klasa se može instancirati.",
+    "options": [
+      { "text": "Tačno", "correct": false },
+      { "text": "Netačno", "correct": true }
+    ],
+    "explanation": "Apstraktna klasa NE može se instancirati i sadrži barem jednu apstraktnu operaciju."
+  },
+  {
+    "question": "Izvedene vrednosti u dijagramu klasa označavaju se:",
+    "options": [
+      { "text": "Sa * pre naziva", "correct": false },
+      { "text": "Sa / pre naziva", "correct": true },
+      { "text": "Sa # pre naziva", "correct": false }
+    ],
+    "explanation": "Izvedene vrednosti se označavaju sa '/' pre naziva (npr. /punoIme)."
+  },
+  {
+    "question": "<> stereotip može da se grafički prikaže kao krug (lollipop notacija).",
+    "options": [
+      { "text": "Tačno", "correct": true },
+      { "text": "Netačno", "correct": false }
+    ],
+    "explanation": "Interfejs se može prikazati kao krug sa imenom, ili kao klasa sa <> stereotipom."
+  },
+  {
+    "question": "Klasa asocijacije se koristi da:",
+    "options": [
+      { "text": "Zameni asocijaciju između dve klase", "correct": false },
+      { "text": "Pruži dodatne informacije o vezi između dve klase", "correct": true },
+      { "text": "Ukine asocijaciju", "correct": false }
+    ],
+    "explanation": "Klasa asocijacije pruža dodatne informacije o vezi (npr. Polaganje između Student i Predmet)."
+  },
+  {
+    "question": "Od UML 2.0, End Ownership se grafički predstavlja:",
+    "options": [
+      { "text": "Strelicom na kraju asocijacije", "correct": false },
+      { "text": "Tačkom na kraju asocijacije", "correct": true },
+      { "text": "Rombom", "correct": false }
+    ],
+    "explanation": "Od UML 2.0: tačka = End Ownership, strelica = Navigability."
+  },
+  {
+    "question": "Statički atributi i metode u dijagramu klasa se podvlače.",
+    "options": [
+      { "text": "Tačno", "correct": true },
+      { "text": "Netačno", "correct": false }
+    ],
+    "explanation": "Statičke vrednosti predstavljaju karakteristike cele klase i podvlače se."
+  },
+  {
+    "question": "<> stereotip označava klasu koja:",
+    "options": [
+      { "text": "Sadrži samo apstraktne metode", "correct": false },
+      { "text": "Sadrži samo statičke atribute i metode", "correct": true },
+      { "text": "Ne može imati operacije", "correct": false }
+    ],
+    "explanation": "<> = klasa koja sadrži samo statičke atribute i metode (npr. Kalkulator)."
+  },
+  {
+    "question": "<> veza u dijagramu slučajeva korišćenja:",
+    "options": [
+      { "text": "Opciono proširuje ponašanje", "correct": false },
+      { "text": "Eksplicitno i obavezno uključuje ponašanje drugog SK", "correct": true },
+      { "text": "Definiše generalizaciju", "correct": false }
+    ],
+    "explanation": "<> = eksplicitno, obavezno uključivanje ponašanja drugog SK."
+  },
+  {
+    "question": "<> veza:",
+    "options": [
+      { "text": "Obavezno uključuje ponašanje", "correct": false },
+      { "text": "Implicitno i opciono proširuje ponašanje u tačkama proširenja", "correct": true },
+      { "text": "Definiše asocijaciju", "correct": false }
+    ],
+    "explanation": "<> = implicitno, opciono proširenje u tzv. tačkama proširenja (extension points)."
+  },
+  {
+    "question": "Direktna komunikacija između dva aktera može se predstaviti na dijagramu slučajeva korišćenja.",
+    "options": [
+      { "text": "Tačno", "correct": false },
+      { "text": "Netačno", "correct": true }
+    ],
+    "explanation": "Direktna komunikacija između dva aktera NE MOŽE se predstaviti na modelu."
+  },
+  {
+    "question": "U dijagramu SK, scenario je:",
+    "options": [
+      { "text": "Naziv slučaja korišćenja", "correct": false },
+      { "text": "Jedna sekvenca događaja u okviru SK", "correct": true },
+      { "text": "Grafički element dijagrama", "correct": false }
+    ],
+    "explanation": "Svaki SK ima osnovni scenario + alternativne scenarije. Scenario = jedna sekvenca događaja."
+  },
+  {
+    "question": "Kod <> veze, smer strelice ide:",
+    "options": [
+      { "text": "Od uključenog SK ka osnovnom SK", "correct": false },
+      { "text": "Od osnovnog SK ka uključenom SK", "correct": true },
+      { "text": "Nema strelice", "correct": false }
+    ],
+    "explanation": "Include: strelica ide od osnovnog SK ka uključenom. Extend: od proširenja ka osnovnom."
+  },
+  {
+    "question": "Sinhrona poruka se grafički predstavlja:",
+    "options": [
+      { "text": "Isprekidanom linijom sa otvorenom strelicom", "correct": false },
+      { "text": "Punom linijom sa popunjenom (punom) strelicom", "correct": true },
+      { "text": "Punom linijom sa otvorenom strelicom", "correct": false }
+    ],
+    "explanation": "Sinhrona = puna linija + POPUNJENA strelica. Pošiljalac čeka odgovor."
+  },
+  {
+    "question": "Asinhrona poruka se grafički predstavlja:",
+    "options": [
+      { "text": "Punom linijom sa popunjenom strelicom", "correct": false },
+      { "text": "Punom linijom sa otvorenom strelicom", "correct": true },
+      { "text": "Isprekidanom linijom sa popunjenom strelicom", "correct": false }
+    ],
+    "explanation": "Asinhrona = puna linija + OTVORENA strelica. Pošiljalac NE čeka odgovor."
+  },
+  {
+    "question": "Poruka za kreiranje životne linije (create) se predstavlja:",
+    "options": [
+      { "text": "Punom linijom sa popunjenom strelicom", "correct": false },
+      { "text": "Isprekidanom linijom sa otvorenom strelicom", "correct": true },
+      { "text": "Punom linijom bez strelice", "correct": false }
+    ],
+    "explanation": "Create i Reply se obe prikazuju isprekidanom linijom sa otvorenom strelicom."
+  },
+  {
+    "question": "Operator ALT u kombinovanom fragmentu označava:",
+    "options": [
+      { "text": "Petlju", "correct": false },
+      { "text": "Selekciju — bira se najviše jedan operand", "correct": true },
+      { "text": "Paralelno izvršavanje", "correct": false }
+    ],
+    "explanation": "ALT = selekcija (if/else); bira se najviše jedan operand na osnovu guard uslova."
+  },
+  {
+    "question": "Operator LOOP u kombinovanom fragmentu:",
+    "options": [
+      { "text": "Označava prekid interakcije", "correct": false },
+      { "text": "Označava deo koji se ponavlja određeni broj puta", "correct": true },
+      { "text": "Označava paralelno izvršavanje", "correct": false }
+    ],
+    "explanation": "LOOP = petlja. Ponavlja se prema guard uslovu ili min/max broju iteracija."
+  },
+  {
+    "question": "Operator BREAK:",
+    "options": [
+      { "text": "Izvršava se umesto ostatka fragmenta", "correct": true },
+      { "text": "Ponavlja deo interakcije", "correct": false },
+      { "text": "Predstavlja opcioni segment", "correct": false }
+    ],
+    "explanation": "BREAK = specijalni scenario koji se izvršava UMESTO ostatka fragmenta."
+  },
+  {
+    "question": "OPT operator je ekvivalentan ALT operatoru sa samo jednom opcijom.",
+    "options": [
+      { "text": "Tačno", "correct": true },
+      { "text": "Netačno", "correct": false }
+    ],
+    "explanation": "OPT = opcioni segment sa jednim operandom; ekvivalentan ALT sa jednom opcijom."
+  },
+  {
+    "question": "Kraj životne linije (destruction occurrence) se označava:",
+    "options": [
+      { "text": "Popunjenim krugom", "correct": false },
+      { "text": "Znakom X", "correct": true },
+      { "text": "Duplim krugom", "correct": false }
+    ],
+    "explanation": "Znak X na kraju životne linije označava brisanje instance."
+  },
+  {
+    "question": "U ECB paternu, Boundary odgovara:",
+    "options": [
+      { "text": "Model-u", "correct": false },
+      { "text": "View-u", "correct": true },
+      { "text": "Controller-u", "correct": false }
+    ],
+    "explanation": "Boundary = View, Control = Controller, Entity = Model."
+  },
+  {
+    "question": "Izgubljena poruka (lost message) je poruka kojoj je poznat primalac ali ne i pošiljalac.",
+    "options": [
+      { "text": "Tačno", "correct": false },
+      { "text": "Netačno", "correct": true }
+    ],
+    "explanation": "Izgubljena = poznat pošiljalac, nepoznat primalac. Pronađena = poznat primalac, nepoznat pošiljalac."
+  },
+  {
+    "question": "Interaction use (ref) se koristi za:",
+    "options": [
+      { "text": "Kreiranje nove životne linije", "correct": false },
+      { "text": "Pozivanje druge interakcije radi uprošćenog prikaza", "correct": true },
+      { "text": "Definisanje ograničenja", "correct": false }
+    ],
+    "explanation": "ref = interaction use; uprošćen prikaz kompleksnih dijagrama pozivanjem druge interakcije."
+  },
+  {
+    "question": "Od UML 2.0, dijagrami aktivnosti su zasnovani na:",
+    "options": [
+      { "text": "Teoriji konačnih automata", "correct": false },
+      { "text": "Teoriji Petrijevih mreža", "correct": true },
+      { "text": "Lambda računu", "correct": false }
+    ],
+    "explanation": "Od UML 2.0 dijagrami aktivnosti su zasnovani na Petrijevim mrežama (ranije: konačni automati)."
+  },
+  {
+    "question": "Fork (račvanje) u dijagramu aktivnosti predstavlja:",
+    "options": [
+      { "text": "OR grananje", "correct": false },
+      { "text": "AND grananje u paralelne niti", "correct": true },
+      { "text": "Kraj procesa", "correct": false }
+    ],
+    "explanation": "Fork = AND grananje u paralelne niti (debela horizontalna linija)."
+  },
+  {
+    "question": "Decision (odlučivanje) u dijagramu aktivnosti predstavlja:",
+    "options": [
+      { "text": "AND grananje", "correct": false },
+      { "text": "OR grananje sa uslovima", "correct": true },
+      { "text": "Spajanje niti", "correct": false }
+    ],
+    "explanation": "Decision = romb sa uslovima = OR grananje."
+  },
+  {
+    "question": "Flow Final označava kraj celog procesa.",
+    "options": [
+      { "text": "Tačno", "correct": false },
+      { "text": "Netačno", "correct": true }
+    ],
+    "explanation": "Flow Final (X u krugu) označava kraj samo jednog toka/niti. Activity Final (dupli krug) = kraj celog procesa."
+  },
+  {
+    "question": "Particije (Swimlanes) u dijagramu aktivnosti predstavljaju:",
+    "options": [
+      { "text": "Vrste aktivnosti", "correct": false },
+      { "text": "Uloge/izvršioce u procesu", "correct": true },
+      { "text": "Tokove podataka", "correct": false }
+    ],
+    "explanation": "Particije predstavljaju uloge (izvršioce) — organizacioni deo, radno mesto, poslovni partner."
+  },
+  {
+    "question": "Glavna razlika između dijagrama aktivnosti i flowchart-a je podrška za paralelno izvršavanje.",
+    "options": [
+      { "text": "Tačno", "correct": true },
+      { "text": "Netačno", "correct": false }
+    ],
+    "explanation": "DA podržava paralelno izvršavanje (fork/join), za razliku od klasičnog flowchart-a."
+  },
+  {
+    "question": "<> u dijagramu aktivnosti označava:",
+    "options": [
+      { "text": "Vremenski okidač", "correct": false },
+      { "text": "Skladište podataka", "correct": true },
+      { "text": "Signal", "correct": false }
+    ],
+    "explanation": "<> označava skladište podataka/dokumenata."
+  },
+  {
+    "question": "Ekspanzioni region se koristi za:",
+    "options": [
+      { "text": "Paralelno izvršavanje dva procesa", "correct": false },
+      { "text": "Opis iteracije nad kolekcijom", "correct": true },
+      { "text": "Definisanje podprocesa", "correct": false }
+    ],
+    "explanation": "Ekspanzioni region opisuje iteraciju nad kolekcijom; interne akcije se izvršavaju za svaki element."
+  },
+  {
+    "question": "Interna akcija \"entry\" u stanju se izvršava:",
+    "options": [
+      { "text": "Pri izlasku iz stanja", "correct": false },
+      { "text": "Pri ulasku u stanje", "correct": true },
+      { "text": "Dok je sistem u stanju", "correct": false }
+    ],
+    "explanation": "entry = ulazak u stanje, exit = izlazak, do = dok je u stanju."
+  },
+  {
+    "question": "Interna akcija \"do\" označava:",
+    "options": [
+      { "text": "Akciju koja se izvršava pri ulasku u stanje", "correct": false },
+      { "text": "Aktivnost koja se izvršava dok je sistem u datom stanju", "correct": true },
+      { "text": "Akciju koja se izvršava pri izlasku iz stanja", "correct": false }
+    ],
+    "explanation": "do = aktivnost koja traje dok je objekat u tom stanju."
+  },
+  {
+    "question": "Format naziva tranzicije je:",
+    "options": [
+      { "text": "akcija/uslov[događaj]", "correct": false },
+      { "text": "nazivDogađaja[uslov]/akcija", "correct": true },
+      { "text": "uslov/nazivDogađaja/akcija", "correct": false }
+    ],
+    "explanation": "Tranzicija: nazivDogađaja[uslov]/akcija."
+  },
+  {
+    "question": "Automatska tranzicija je tranzicija bez naziva i detektovanog događaja.",
+    "options": [
+      { "text": "Tačno", "correct": true },
+      { "text": "Netačno", "correct": false }
+    ],
+    "explanation": "Automatska tranzicija se dešava automatski, bez naziva i bez događaja."
+  },
+  {
+    "question": "Choice pseudostanje na dijagramu prelaza stanja:",
+    "options": [
+      { "text": "Spaja više tranzicija", "correct": false },
+      { "text": "Ima jednu ulaznu i dve+ izlazne tranzicije (romb)", "correct": true },
+      { "text": "Predstavlja krajnje stanje", "correct": false }
+    ],
+    "explanation": "Choice = romb: jedna ulazna, dve ili više izlaznih tranzicija."
+  },
+  {
+    "question": "Tranzicije koje se spajaju korišćenjem Join pseudostanja mogu imati definisan događaj.",
+    "options": [
+      { "text": "Tačno", "correct": false },
+      { "text": "Netačno", "correct": true }
+    ],
+    "explanation": "Join pseudostanje: spojene tranzicije NE MOGU imati događaj niti uslov."
+  },
+  {
+    "question": "Događaj u dijagramu stanja može biti:",
+    "options": [
+      { "text": "Signal, promena uslova ili istek vremena", "correct": true },
+      { "text": "Samo signal", "correct": false },
+      { "text": "Samo promena uslova", "correct": false }
+    ],
+    "explanation": "Događaj = signal, promena uslova, ili istek definisanog vremena."
+  },
+  {
+    "question": "Na jednom dijagramu prelaza stanja može se naći više stanja sa istim nazivom.",
+    "options": [
+      { "text": "Tačno", "correct": false },
+      { "text": "Netačno", "correct": true }
+    ],
+    "explanation": "Ne bi trebalo da se nađe više stanja sa istim nazivom na jednom dijagramu."
+  },
+  {
+    "question": "Tačan redosled faza životnog ciklusa IS:",
+    "options": [
+      { "text": "Analiza → Strategija → Programiranje → Projektovanje → Uvođenje → Održavanje", "correct": false },
+      { "text": "Strategija → Analiza → Projektovanje → Programiranje → Uvođenje → Eksploatacija i održavanje", "correct": true },
+      { "text": "Strategija → Projektovanje → Analiza → Programiranje → Uvođenje → Održavanje", "correct": false }
+    ],
+    "explanation": "Strategija → Analiza → Projektovanje → Programiranje → Uvođenje → Eksploatacija i održavanje."
+  },
+  {
+    "question": "Idejni projekat (IP) je izlaz iz:",
+    "options": [
+      { "text": "Faze analize", "correct": false },
+      { "text": "Faze strategije", "correct": true },
+      { "text": "Faze projektovanja", "correct": false }
+    ],
+    "explanation": "Faza strategije daje: Idejni projekat (IP), Plan razvoja projekta (PRP), Ugovor (UG)."
+  },
+  {
+    "question": "Konceptualni projekat (KP) je izlaz iz:",
+    "options": [
+      { "text": "Faze strategije", "correct": false },
+      { "text": "Faze analize", "correct": true },
+      { "text": "Faze programiranja", "correct": false }
+    ],
+    "explanation": "Faza analize daje Konceptualni projekat (KP)."
+  },
+  {
+    "question": "SDLC je sam po sebi metodologija.",
+    "options": [
+      { "text": "Tačno", "correct": false },
+      { "text": "Netačno", "correct": true }
+    ],
+    "explanation": "SDLC NIJE metodologija, već okvir/proces koji propisuje opšte korake razvoja softvera."
+  },
+  {
+    "question": "BSP metoda je razvijena od strane:",
+    "options": [
+      { "text": "Microsoft-a", "correct": false },
+      { "text": "IBM-a", "correct": true },
+      { "text": "Oracle-a", "correct": false }
+    ],
+    "explanation": "BSP (Business System Planning) je razvijena od strane IBM-a."
+  },
+  {
+    "question": "BSP procedura se deli na:",
+    "options": [
+      { "text": "Analiza i Implementacija", "correct": false },
+      { "text": "Priprema, Analiza i Zaključak", "correct": true },
+      { "text": "Inicijalizacija i Finalizacija", "correct": false }
+    ],
+    "explanation": "BSP ima 3 sekcije: Priprema, Analiza, Zaključak."
+  },
+  {
+    "question": "JAD (Joint Application Development) sesije su:",
+    "options": [
+      { "text": "Online upitnici za korisnike", "correct": false },
+      { "text": "Intenzivne radionice gde zainteresovane strane i analitičari rade zajedno", "correct": true },
+      { "text": "Individualni intervjui sa menadžmentom", "correct": false }
+    ],
+    "explanation": "JAD sesije su grupne radionice za zajedničko definisanje i razradu zahteva."
+  },
+  {
+    "question": "Osnovni koncepti SSA su:",
+    "options": [
+      { "text": "Klase, interfejsi, paketi, stereotipi", "correct": false },
+      { "text": "Funkcije/procesi, interfejsi, tokovi podataka, skladišta podataka", "correct": true },
+      { "text": "Modeli, dijagrami, akteri, scenariji", "correct": false }
+    ],
+    "explanation": "SSA koncepti: funkcije, interfejsi, tokovi podataka, skladišta podataka."
+  },
+  {
+    "question": "Pravilo balansa tokova u SSA zahteva da ulazni i izlazni tokovi dekompozicije procesa budu ekvivalentni tokovima na dijagramu višeg nivoa.",
+    "options": [
+      { "text": "Tačno", "correct": true },
+      { "text": "Netačno", "correct": false }
+    ],
+    "explanation": "To je ključno sintaksno pravilo SSA — balans tokova pri dekompoziciji."
+  },
+  {
+    "question": "Metodološko pravilo SSA nalaže da funkcije na DTP-u treba da:",
+    "options": [
+      { "text": "Komuniciraju direktno jedna sa drugom", "correct": false },
+      { "text": "Komuniciraju isključivo preko skladišta", "correct": true },
+      { "text": "Ne komuniciraju uopšte", "correct": false }
+    ],
+    "explanation": "Funkcije na DTP-u komuniciraju isključivo preko skladišta (fundamentalno pravilo)."
+  },
+  {
+    "question": "Potpunu specifikaciju IS u SSA čine:",
+    "options": [
+      { "text": "Samo dijagrami tokova podataka", "correct": false },
+      { "text": "Hijerarhijski DTP-ovi, rečnik podataka i specifikacija logike primitivnih procesa", "correct": true },
+      { "text": "Samo rečnik podataka i dijagrami klasa", "correct": false }
+    ],
+    "explanation": "3 dela potpune specifikacije: DTP-ovi, rečnik podataka, specifikacija logike."
+  },
+  {
+    "question": "Vodopad (Waterfall) model se koristi kada su:",
+    "options": [
+      { "text": "Zahtevi promenljivi i nedovoljno definisani", "correct": false },
+      { "text": "Zahtevi jasni, stabilni i malo verovatni da će se promeniti", "correct": true },
+      { "text": "Timovi mali i bez iskustva", "correct": false }
+    ],
+    "explanation": "Waterfall je za retke slučajeve kada su zahtevi jasni i stabilni."
+  },
+  {
+    "question": "RUP (Rational Unified Process) ima koliko ključnih faza?",
+    "options": [
+      { "text": "3", "correct": false },
+      { "text": "4", "correct": true },
+      { "text": "6", "correct": false }
+    ],
+    "explanation": "RUP: 4 faze — Inicijalizacija, Razrada, Konstrukcija, Tranzicija."
+  },
+  {
+    "question": "U klasičnom MVC paternu, View:",
+    "options": [
+      { "text": "Ne zna za Model", "correct": false },
+      { "text": "Direktno čita Model", "correct": true },
+      { "text": "Komunicira sa Modelom samo preko Controllera", "correct": false }
+    ],
+    "explanation": "U klasičnom MVC, View DIREKTNO čita Model za podatke za prikaz."
+  },
+  {
+    "question": "U MVC Model 2, glavna razlika u odnosu na klasičan MVC:",
+    "options": [
+      { "text": "Nema Controller-a", "correct": false },
+      { "text": "Ne postoji direktna veza između View-a i Model-a", "correct": true },
+      { "text": "View je zapravo Controller", "correct": false }
+    ],
+    "explanation": "MVC Model 2 nema direktnu vezu View ↔ Model. Prilagođen web aplikacijama."
+  },
+  {
+    "question": "U MVP Pasivni Pogled, View sadrži:",
+    "options": [
+      { "text": "Stanje i logiku", "correct": false },
+      { "text": "Samo stanje", "correct": true },
+      { "text": "Samo logiku", "correct": false }
+    ],
+    "explanation": "Pasivni Pogled: View sadrži SAMO stanje; SVU logiku i sinhronizaciju radi Presenter."
+  },
+  {
+    "question": "Razlika između MVP Pasivni Pogled i MVP Nadzorni Prezenter:",
+    "options": [
+      { "text": "Nadzorni Prezenter nema Presenter", "correct": false },
+      { "text": "U Nadzornom Prezeteru View zadržava autonomiju i može direktno čitati Model", "correct": true },
+      { "text": "Nema razlike", "correct": false }
+    ],
+    "explanation": "Nadzorni: View ima autonomiju i može se direktno vezati za domenske objekte."
+  },
+  {
+    "question": "MVVM patern je:",
+    "options": [
+      { "text": "Specifična Microsoft implementacija Prezentacionog modela (PM)", "correct": true },
+      { "text": "Zamena za MVC u svim kontekstima", "correct": false },
+      { "text": "Identičan klasičnom MVC-u", "correct": false }
+    ],
+    "explanation": "MVVM = Microsoft-ova implementacija PM-a; koristi Commands, DataBinding, Notifications."
+  },
+  {
+    "question": "U svim prezentacionim paternima, Model ne zna kako će biti prikazan.",
+    "options": [
+      { "text": "Tačno", "correct": true },
+      { "text": "Netačno", "correct": false }
+    ],
+    "explanation": "Model upravlja ponašanjem i podacima domena ali ne zna kako će biti prikazan ni ažuriran."
+  },
+  {
+    "question": "3 osnovne odgovornosti prezentacionog sloja su:",
+    "options": [
+      { "text": "Kreiranje, čitanje i brisanje", "correct": false },
+      { "text": "Stanje, logika i sinhronizacija", "correct": true },
+      { "text": "Validacija, transformacija i prikaz", "correct": false }
+    ],
+    "explanation": "Stanje (podaci na UI), Logika (ponašanje prikaza), Sinhronizacija (UI ↔ domen)."
+  },
+  {
+    "question": "Princip podele odgovornosti nalaže da:",
+    "options": [
+      { "text": "Svaka klasa mora imati tačno jednu metodu", "correct": false },
+      { "text": "Delovi aplikacije treba da se što manje preklapaju u funkcionalnosti", "correct": true },
+      { "text": "Model i View moraju biti u istoj klasi", "correct": false }
+    ],
+    "explanation": "Separation of Concerns — delovi se što manje preklapaju u pogledu funkcionalnosti."
+  },
+  {
+    "question": "OCL je programski jezik.",
+    "options": [
+      { "text": "Tačno", "correct": false },
+      { "text": "Netačno", "correct": true }
+    ],
+    "explanation": "OCL NIJE programski jezik. Nema kontrolu toka niti kompleksnu logiku."
+  },
+  {
+    "question": "Evaluacija OCL izraza može promeniti stanje sistema.",
+    "options": [
+      { "text": "Tačno", "correct": false },
+      { "text": "Netačno", "correct": true }
+    ],
+    "explanation": "OCL je side-effect free — evaluacija NIKADA ne menja stanje sistema."
+  },
+  {
+    "question": "Klauzula \"inv\" označava:",
+    "options": [
+      { "text": "Ograničenje koje mora biti zadovoljeno samo pri kreiranju objekta", "correct": false },
+      { "text": "Ograničenje koje mora biti zadovoljeno UVEK tokom životnog ciklusa objekta", "correct": true },
+      { "text": "Ograničenje vezano samo za operacije", "correct": false }
+    ],
+    "explanation": "inv (invariant) = ograničenje koje UVEK mora biti zadovoljeno."
+  },
+  {
+    "question": "@pre klauzula se može koristiti:",
+    "options": [
+      { "text": "U invariant i postcondition ograničenjima", "correct": false },
+      { "text": "Isključivo u postcondition ograničenjima", "correct": true },
+      { "text": "U svim vrstama ograničenja", "correct": false }
+    ],
+    "explanation": "@pre se koristi ISKLJUČIVO u postcondition — označava vrednost pre izvršenja operacije."
+  },
+  {
+    "question": "Klauzula \"result\" u OCL-u:",
+    "options": [
+      { "text": "Označava rezultat invariant ograničenja", "correct": false },
+      { "text": "Odnosi se na povratnu vrednost operacije u postcondition", "correct": true },
+      { "text": "Koristi se za definisanje konteksta", "correct": false }
+    ],
+    "explanation": "result = povratna vrednost operacije, koristi se SAMO u postcondition."
+  },
+  {
+    "question": "Operator \"->\" u OCL-u služi za:",
+    "options": [
+      { "text": "Navigaciju među objektima", "correct": false },
+      { "text": "Navigaciju od kolekcije koristeći operaciju ili iteraciju", "correct": true },
+      { "text": "Definisanje konteksta", "correct": false }
+    ],
+    "explanation": "\".\" = navigacija među objektima, \"->\" = navigacija od kolekcije (operacije nad kolekcijom)."
+  },
+  {
+    "question": "OCL tip Set je:",
+    "options": [
+      { "text": "Uređen, bez duplikata", "correct": false },
+      { "text": "Neuređen, bez duplikata", "correct": true },
+      { "text": "Neuređen, sa duplikatima", "correct": false }
+    ],
+    "explanation": "Set = neuređen, bez duplikata."
+  },
+  {
+    "question": "OCL tip Bag je:",
+    "options": [
+      { "text": "Uređen, bez duplikata", "correct": false },
+      { "text": "Neuređen, sa duplikatima", "correct": true },
+      { "text": "Uređen, sa duplikatima", "correct": false }
+    ],
+    "explanation": "Bag = neuređen, SA duplikatima."
+  },
+  {
+    "question": "OCL tip Sequence je:",
+    "options": [
+      { "text": "Neuređen, bez duplikata", "correct": false },
+      { "text": "Neuređen, sa duplikatima", "correct": false },
+      { "text": "Uređen, sa duplikatima", "correct": true }
+    ],
+    "explanation": "Sequence = uređen, SA duplikatima."
+  },
+  {
+    "question": "Iterator forAll u OCL-u vraća true ako:",
+    "options": [
+      { "text": "Body važi za bar jedan element", "correct": false },
+      { "text": "Body važi za SVE elemente kolekcije", "correct": true },
+      { "text": "Body važi za tačno jedan element", "correct": false }
+    ],
+    "explanation": "forAll = true ako body važi za SVE elemente. exists = bar jedan. one = tačno jedan."
+  },
+  {
+    "question": "Iterator exists u OCL-u vraća true ako:",
+    "options": [
+      { "text": "Body važi za SVE elemente", "correct": false },
+      { "text": "Body važi za BAR JEDAN element", "correct": true },
+      { "text": "Body važi za tačno dva elementa", "correct": false }
+    ],
+    "explanation": "exists = true ako body važi za bar jedan element kolekcije."
+  },
+  {
+    "question": "Iterator one u OCL-u vraća true ako:",
+    "options": [
+      { "text": "Body važi za bar jedan element", "correct": false },
+      { "text": "Body važi za tačno jedan element", "correct": true },
+      { "text": "Body ne važi ni za jedan element", "correct": false }
+    ],
+    "explanation": "one = true ako body važi za TAČNO jedan element."
+  },
+  {
+    "question": "Ako naziv uloge u asocijaciji nije definisan, u OCL-u se koristi naziv klase sa malim početnim slovom.",
+    "options": [
+      { "text": "Tačno", "correct": true },
+      { "text": "Netačno", "correct": false }
+    ],
+    "explanation": "Koristi se naziv klase sa malim početnim slovom ako uloga nije eksplicitno navedena."
+  },
+  {
+    "question": "Trenutna verzija OCL-a je:",
+    "options": [
+      { "text": "1.0", "correct": false },
+      { "text": "2.4", "correct": true },
+      { "text": "3.0", "correct": false }
+    ],
+    "explanation": "Trenutna verzija OCL-a je 2.4."
+  },
+  {
+    "question": "Boolean operator \"implies\" u OCL-u znači:",
+    "options": [
+      { "text": "Logičko I (AND)", "correct": false },
+      { "text": "Logičku implikaciju (ako...onda)", "correct": true },
+      { "text": "Logičko ILI (OR)", "correct": false }
+    ],
+    "explanation": "implies = logička implikacija: A implies B znači 'ako A onda B'."
+  },
+  {
+    "question": "Profil u UML-u je mehanizam za:",
+    "options": [
+      { "text": "Kreiranje potpuno novih jezika", "correct": false },
+      { "text": "Prilagođavanje meta-modela konkretnim platformama", "correct": true },
+      { "text": "Brisanje postojećih ograničenja", "correct": false }
+    ],
+    "explanation": "Profil prilagođava meta-model platformama. NE ukida postojeća ograničenja, samo dodaje nova."
+  },
+  {
+    "question": "Profilom se mogu ukinuti postojeća ograničenja u UML meta-modelu.",
+    "options": [
+      { "text": "Tačno", "correct": false },
+      { "text": "Netačno", "correct": true }
+    ],
+    "explanation": "Profil SAMO dodaje nova ograničenja — nikada ne ukida postojeća."
+  },
+  {
+    "question": "Osnovni mehanizam proširenja UML meta-modela je:",
+    "options": [
+      { "text": "Tagged value", "correct": false },
+      { "text": "Stereotip", "correct": true },
+      { "text": "Ograničenje", "correct": false }
+    ],
+    "explanation": "Osnovni mehanizam je stereotip. Tagged values i ograničenja su dopunski mehanizmi."
+  },
+  {
+    "question": "Required extension u profilu znači da:",
+    "options": [
+      { "text": "Instanca stereotipa se proizvoljno dodeljuje", "correct": false },
+      { "text": "Svakoj instanci metaklase MORA se dodeliti instanca stereotipa", "correct": true },
+      { "text": "Stereotip se nikada ne koristi", "correct": false }
+    ],
+    "explanation": "Required extension = {required} — svakoj instanci metaklase se MORA dodeliti stereotip."
+  },
+  {
+    "question": "Od UML 2.0, tagged value se može definisati:",
+    "options": [
+      { "text": "Nezavisno od stereotipa", "correct": false },
+      { "text": "Samo kao atribut stereotipa", "correct": true },
+      { "text": "Samo u paketu", "correct": false }
+    ],
+    "explanation": "Od UML 2.0 tagged value se može definisati SAMO kao atribut unutar stereotipa."
+  },
+  {
+    "question": "CIM (Computation Independent Model) je:",
+    "options": [
+      { "text": "Model IS implementiran na konkretnoj platformi", "correct": false },
+      { "text": "Model domena — zajednički rečnik za korisnika i projektanta", "correct": true },
+      { "text": "Model implementacione platforme", "correct": false }
+    ],
+    "explanation": "CIM = model domena, zajednički rečnik."
+  },
+  {
+    "question": "PSM (Platform Specific Model) je:",
+    "options": [
+      { "text": "Model nezavisan od platforme", "correct": false },
+      { "text": "Model IS implementiran u datom okruženju", "correct": true },
+      { "text": "Model implementacione platforme", "correct": false }
+    ],
+    "explanation": "PSM = model IS implementiran u konkretnom okruženju (npr. EJB, .NET)."
+  },
+  {
+    "question": "Nivo M3 u hijerarhiji meta-modela odgovara:",
+    "options": [
+      { "text": "UML meta-modelu", "correct": false },
+      { "text": "MOF (Meta Object Facility)", "correct": true },
+      { "text": "Realnim instancama sistema", "correct": false }
+    ],
+    "explanation": "M3 = MOF. M2 = UML meta-model. M1 = model sistema. M0 = instance."
+  },
+  {
+    "question": "Nivo M0 u hijerarhiji meta-modela predstavlja:",
+    "options": [
+      { "text": "Meta-meta-model", "correct": false },
+      { "text": "Realne instance u sistemu", "correct": true },
+      { "text": "UML meta-model", "correct": false }
+    ],
+    "explanation": "M0 = stvarne instance u sistemu (npr. konkretan objekat 'Pera')."
+  },
+  {
+    "question": "XMI (XML Metadata Interchange) služi za:",
+    "options": [
+      { "text": "Kreiranje UML dijagrama", "correct": false },
+      { "text": "Razmenu UML modela", "correct": true },
+      { "text": "Kompajliranje koda", "correct": false }
+    ],
+    "explanation": "XMI je format za razmenu UML modela u XML formatu."
+  },
+  {
+    "question": "Tok transformacije u MDA je:",
+    "options": [
+      { "text": "PSM → PIM → CIM → Kod", "correct": false },
+      { "text": "CIM → PIM → PSM → Kod", "correct": true },
+      { "text": "PIM → CIM → PSM → Kod", "correct": false }
+    ],
+    "explanation": "CIM → PIM (+ PDM) → transformacija → PSM → generisani kod."
+  },
+  {
+    "question": "Nivo M2 u hijerarhiji meta-modela odgovara UML meta-modelu.",
+    "options": [
+      { "text": "Tačno", "correct": true },
+      { "text": "Netačno", "correct": false }
+    ],
+    "explanation": "M2 = UML meta-model koji definiše koncepte jezika za modelovanje."
+  },
+  {
+    "question": "Agile Manifesto je nastao:",
+    "options": [
+      { "text": "1995.", "correct": false },
+      { "text": "2001.", "correct": true },
+      { "text": "2010.", "correct": false }
+    ],
+    "explanation": "Agile Manifesto je nastao 2001. godine."
+  },
+  {
+    "question": "Prema Agile Manifestu, više se vrednuje:",
+    "options": [
+      { "text": "Detaljna dokumentacija od primenljivog softvera", "correct": false },
+      { "text": "Primenljiv softver od detaljne dokumentacije", "correct": true },
+      { "text": "Ugovorni aranžmani od saradnje sa klijentima", "correct": false }
+    ],
+    "explanation": "Primenljiv softver > Detaljna dokumentacija (ali se ceni i desna strana)."
+  },
+  {
+    "question": "Sprint u Scrum-u traje:",
+    "options": [
+      { "text": "1 dan do 1 nedelja", "correct": false },
+      { "text": "1 nedelja do mesec dana", "correct": true },
+      { "text": "3 do 6 meseci", "correct": false }
+    ],
+    "explanation": "Sprint traje 1 nedelja do mesec dana, sa konstantnom dužinom."
+  },
+  {
+    "question": "Koliko uloga definiše Scrum?",
+    "options": [
+      { "text": "2", "correct": false },
+      { "text": "3", "correct": true },
+      { "text": "5", "correct": false }
+    ],
+    "explanation": "3 uloge: Scrum Master, Product Owner, Team."
+  },
+  {
+    "question": "Product Owner u Scrum-u:",
+    "options": [
+      { "text": "Održava procese", "correct": false },
+      { "text": "Predstavlja zainteresovane strane/poslovanje", "correct": true },
+      { "text": "Piše kod", "correct": false }
+    ],
+    "explanation": "Product Owner predstavlja zainteresovane strane. Scrum Master održava procese."
+  },
+  {
+    "question": "WIP u Kanban-u znači:",
+    "options": [
+      { "text": "Work In Progress — ograničen broj taskova u sekciji", "correct": true },
+      { "text": "Weekly Integration Plan", "correct": false },
+      { "text": "Work Integration Protocol", "correct": false }
+    ],
+    "explanation": "WIP = Work In Progress — ograničenje broja taskova po sekciji."
+  },
+  {
+    "question": "Kanban ima jasno definisane uloge i rokove.",
+    "options": [
+      { "text": "Tačno", "correct": false },
+      { "text": "Netačno", "correct": true }
+    ],
+    "explanation": "Kanban NEMA jasno definisane uloge ni rokove. Kontinuiran rad."
+  },
+  {
+    "question": "Programiranje u parovima je karakteristika:",
+    "options": [
+      { "text": "Scrum-a", "correct": false },
+      { "text": "Kanban-a", "correct": false },
+      { "text": "Ekstremnog programiranja (XP)", "correct": true }
+    ],
+    "explanation": "Programiranje u parovima je ključna praksa XP-a."
+  },
+  {
+    "question": "MoSCoW metoda, slovo \"M\" znači:",
+    "options": [
+      { "text": "Maybe", "correct": false },
+      { "text": "Must — zahtevi koji moraju biti zadovoljeni", "correct": true },
+      { "text": "Minor", "correct": false }
+    ],
+    "explanation": "M = Must, S = Should, C = Could, W = Won't."
+  },
+  {
+    "question": "DSDM koristi metodu prioriteta zvanu:",
+    "options": [
+      { "text": "RICE", "correct": false },
+      { "text": "MoSCoW", "correct": true },
+      { "text": "Fibonacci", "correct": false }
+    ],
+    "explanation": "DSDM koristi MoSCoW metodu za definisanje prioriteta zahteva."
+  },
+  {
+    "question": "\"Kaubojsko kodiranje\" je oblik agilnog razvoja.",
+    "options": [
+      { "text": "Tačno", "correct": false },
+      { "text": "Netačno", "correct": true }
+    ],
+    "explanation": "'Kaubojsko kodiranje' NIJE agilno — nema definisanog procesa ni metodologije."
+  },
+  {
+    "question": "Faze Scrum procesa su:",
+    "options": [
+      { "text": "Istraživanje, Planiranje, Proizvodnja", "correct": false },
+      { "text": "Pre igre, Faza razvoja (igra), Posle igre", "correct": true },
+      { "text": "Sprint 1, Sprint 2, Sprint 3", "correct": false }
+    ],
+    "explanation": "Scrum: 1) Pre igre (planiranje, arhitektura), 2) Razvoj (igra), 3) Posle igre (testiranje, dokumentacija)."
+  },
+  {
+    "question": "Osnovna mera napretka u agilnom razvoju je:",
+    "options": [
+      { "text": "Količina napisane dokumentacije", "correct": false },
+      { "text": "Ispravan (funkcionalan) softver", "correct": true },
+      { "text": "Broj sprovedenih sastanaka", "correct": false }
+    ],
+    "explanation": "Princip: Ispravan softver je osnovna mera napretka."
+  },
+  {
+    "question": "Brzina agilnog razvoja se računa kao:",
+    "options": [
+      { "text": "Broj članova tima × broj dana", "correct": false },
+      { "text": "Broj urađenih jedinica posla / trajanje iteracije", "correct": true },
+      { "text": "Ukupan broj linija koda / vreme", "correct": false }
+    ],
+    "explanation": "Brzina = broj urađenih jedinica posla / trajanje iteracije."
+  },
+  {
+    "question": "Crystal Clear je namenjen timovima od:",
+    "options": [
+      { "text": "1–2 člana", "correct": false },
+      { "text": "6–8 članova", "correct": true },
+      { "text": "50+ članova", "correct": false }
+    ],
+    "explanation": "Crystal Clear: za timove od 6–8 projektanata, za sisteme koji nisu krucijalni."
+  },
+  {
+    "question": "AUP (Agile Unified Process) je pojednostavljena verzija RUP-a.",
+    "options": [
+      { "text": "Tačno", "correct": true },
+      { "text": "Netačno", "correct": false }
+    ],
+    "explanation": "AUP je pojednostavljen RUP sa 7 disciplina."
+  }
+]
